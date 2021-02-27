@@ -1,0 +1,523 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 601CD4B6
+P 2900 2925
+F 0 "U1" H 2900 4140 50  0000 C CNN
+F 1 "Pico" H 2900 4049 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 2900 2925 50  0001 C CNN
+F 3 "" H 2900 2925 50  0001 C CNN
+	1    2900 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:I2C_2x2-put_on_edge J2
+U 1 1 601D15FC
+P 5350 3000
+F 0 "J2" H 5678 3013 50  0000 L CNN
+F 1 "I2C_2x2" H 5678 2922 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 5650 3650 50  0001 C CNN
+F 3 "" H 5650 3650 50  0001 C CNN
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:I2C_2x2-put_on_edge J5
+U 1 1 601D2BD5
+P 7850 3000
+F 0 "J5" H 8178 3013 50  0000 L CNN
+F 1 "I2C_2x2" H 8178 2922 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 8150 3650 50  0001 C CNN
+F 3 "" H 8150 3650 50  0001 C CNN
+	1    7850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:UART_2x2-put_on_edge J3
+U 1 1 601D3530
+P 5350 4500
+F 0 "J3" H 5678 4513 50  0000 L CNN
+F 1 "UART_2x2" H 5678 4422 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 5650 5150 50  0001 C CNN
+F 3 "" H 5650 5150 50  0001 C CNN
+	1    5350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:UART_2x2-put_on_edge J6
+U 1 1 601D3EDE
+P 7850 4500
+F 0 "J6" H 8178 4513 50  0000 L CNN
+F 1 "UART_2x2" H 8178 4422 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 8150 5150 50  0001 C CNN
+F 3 "" H 8150 5150 50  0001 C CNN
+	1    7850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:SPI_2x3-put_on_edge J1
+U 1 1 601D71CC
+P 5350 1500
+F 0 "J1" H 5678 1513 50  0000 L CNN
+F 1 "SPI_2x3" H 5678 1422 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 5650 2150 50  0001 C CNN
+F 3 "" H 5650 2150 50  0001 C CNN
+	1    5350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:SPI_2x3-put_on_edge J4
+U 1 1 601D7B73
+P 7850 1500
+F 0 "J4" H 8178 1513 50  0000 L CNN
+F 1 "SPI_2x3" H 8178 1422 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 8150 2150 50  0001 C CNN
+F 3 "" H 8150 2150 50  0001 C CNN
+	1    7850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 601D816D
+P 5300 2050
+F 0 "#PWR0101" H 5300 1800 50  0001 C CNN
+F 1 "GND" H 5305 1877 50  0000 C CNN
+F 2 "" H 5300 2050 50  0001 C CNN
+F 3 "" H 5300 2050 50  0001 C CNN
+	1    5300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 601D95F9
+P 7800 2050
+F 0 "#PWR0102" H 7800 1800 50  0001 C CNN
+F 1 "GND" H 7805 1877 50  0000 C CNN
+F 2 "" H 7800 2050 50  0001 C CNN
+F 3 "" H 7800 2050 50  0001 C CNN
+	1    7800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 601DB16B
+P 5300 3550
+F 0 "#PWR0103" H 5300 3300 50  0001 C CNN
+F 1 "GND" H 5305 3377 50  0000 C CNN
+F 2 "" H 5300 3550 50  0001 C CNN
+F 3 "" H 5300 3550 50  0001 C CNN
+	1    5300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 601DB791
+P 7800 3550
+F 0 "#PWR0104" H 7800 3300 50  0001 C CNN
+F 1 "GND" H 7805 3377 50  0000 C CNN
+F 2 "" H 7800 3550 50  0001 C CNN
+F 3 "" H 7800 3550 50  0001 C CNN
+	1    7800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 601DC865
+P 7800 5050
+F 0 "#PWR0105" H 7800 4800 50  0001 C CNN
+F 1 "GND" H 7805 4877 50  0000 C CNN
+F 2 "" H 7800 5050 50  0001 C CNN
+F 3 "" H 7800 5050 50  0001 C CNN
+	1    7800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 601DCC2B
+P 5300 5050
+F 0 "#PWR0106" H 5300 4800 50  0001 C CNN
+F 1 "GND" H 5305 4877 50  0000 C CNN
+F 2 "" H 5300 5050 50  0001 C CNN
+F 3 "" H 5300 5050 50  0001 C CNN
+	1    5300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 601DD16B
+P 3700 3975
+F 0 "#PWR0107" H 3700 3725 50  0001 C CNN
+F 1 "GND" H 3705 3802 50  0000 C CNN
+F 2 "" H 3700 3975 50  0001 C CNN
+F 3 "" H 3700 3975 50  0001 C CNN
+	1    3700 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3975 3700 3675
+Wire Wire Line
+	3700 3675 3600 3675
+Wire Wire Line
+	3700 3675 3700 3175
+Wire Wire Line
+	3700 3175 3600 3175
+Connection ~ 3700 3675
+Wire Wire Line
+	3700 3175 3700 2675
+Wire Wire Line
+	3700 2175 3600 2175
+Connection ~ 3700 3175
+$Comp
+L power:GND #PWR0108
+U 1 1 601DDE38
+P 2075 4000
+F 0 "#PWR0108" H 2075 3750 50  0001 C CNN
+F 1 "GND" H 2080 3827 50  0000 C CNN
+F 2 "" H 2075 4000 50  0001 C CNN
+F 3 "" H 2075 4000 50  0001 C CNN
+	1    2075 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 4000 2075 3675
+Wire Wire Line
+	2075 3675 2200 3675
+Wire Wire Line
+	2075 3675 2075 3175
+Wire Wire Line
+	2075 3175 2200 3175
+Connection ~ 2075 3675
+Wire Wire Line
+	2075 3175 2075 2675
+Wire Wire Line
+	2075 2675 2200 2675
+Connection ~ 2075 3175
+Wire Wire Line
+	2075 2675 2075 2175
+Wire Wire Line
+	2075 2175 2200 2175
+Connection ~ 2075 2675
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 601DF102
+P 3850 1875
+F 0 "#PWR0109" H 3850 1725 50  0001 C CNN
+F 1 "+3.3V" H 3865 2048 50  0000 C CNN
+F 2 "" H 3850 1875 50  0001 C CNN
+F 3 "" H 3850 1875 50  0001 C CNN
+	1    3850 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1875 3850 2375
+Wire Wire Line
+	3850 2375 3600 2375
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 601E0781
+P 4800 1225
+F 0 "#PWR0110" H 4800 1075 50  0001 C CNN
+F 1 "+3.3V" H 4815 1398 50  0000 C CNN
+F 2 "" H 4800 1225 50  0001 C CNN
+F 3 "" H 4800 1225 50  0001 C CNN
+	1    4800 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1225 4800 1300
+Wire Wire Line
+	4800 1300 4900 1300
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 601E1146
+P 4800 2800
+F 0 "#PWR0111" H 4800 2650 50  0001 C CNN
+F 1 "+3.3V" H 4815 2973 50  0000 C CNN
+F 2 "" H 4800 2800 50  0001 C CNN
+F 3 "" H 4800 2800 50  0001 C CNN
+	1    4800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2800 4800 2900
+Wire Wire Line
+	4800 2900 4900 2900
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 601E1A0F
+P 4825 4325
+F 0 "#PWR0112" H 4825 4175 50  0001 C CNN
+F 1 "+3.3V" H 4840 4498 50  0000 C CNN
+F 2 "" H 4825 4325 50  0001 C CNN
+F 3 "" H 4825 4325 50  0001 C CNN
+	1    4825 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 4325 4825 4400
+Wire Wire Line
+	4825 4400 4900 4400
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 601E2113
+P 7325 1225
+F 0 "#PWR0113" H 7325 1075 50  0001 C CNN
+F 1 "+3.3V" H 7340 1398 50  0000 C CNN
+F 2 "" H 7325 1225 50  0001 C CNN
+F 3 "" H 7325 1225 50  0001 C CNN
+	1    7325 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 1225 7325 1300
+Wire Wire Line
+	7325 1300 7400 1300
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 601E2BEC
+P 7325 2775
+F 0 "#PWR0114" H 7325 2625 50  0001 C CNN
+F 1 "+3.3V" H 7340 2948 50  0000 C CNN
+F 2 "" H 7325 2775 50  0001 C CNN
+F 3 "" H 7325 2775 50  0001 C CNN
+	1    7325 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 2775 7325 2900
+Wire Wire Line
+	7325 2900 7400 2900
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 601E35AA
+P 7325 4300
+F 0 "#PWR0115" H 7325 4150 50  0001 C CNN
+F 1 "+3.3V" H 7340 4473 50  0000 C CNN
+F 2 "" H 7325 4300 50  0001 C CNN
+F 3 "" H 7325 4300 50  0001 C CNN
+	1    7325 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 4300 7325 4400
+Wire Wire Line
+	7325 4400 7400 4400
+Text Label 4100 2475 2    50   ~ 0
+ADC_VREF
+Text Label 4100 2575 2    50   ~ 0
+ADC2
+Wire Wire Line
+	3600 2675 3700 2675
+Connection ~ 3700 2675
+Wire Wire Line
+	3700 2675 3700 2175
+Text Label 4100 2775 2    50   ~ 0
+ADC1
+Text Label 4100 2875 2    50   ~ 0
+ADC0
+Text Label 4100 3275 2    50   ~ 0
+I2C0_SCL
+Text Label 4100 3375 2    50   ~ 0
+I2C0_SDA
+Text Label 4100 3475 2    50   ~ 0
+I2C1_SCL
+Text Label 4100 3575 2    50   ~ 0
+I2C1_SDA
+Wire Wire Line
+	3600 2475 4100 2475
+Wire Wire Line
+	3600 2575 4100 2575
+Wire Wire Line
+	3600 2775 4100 2775
+Wire Wire Line
+	3600 2875 4100 2875
+Wire Wire Line
+	3600 3275 4100 3275
+Wire Wire Line
+	3600 3375 4100 3375
+Wire Wire Line
+	3600 3475 4100 3475
+Wire Wire Line
+	3600 3575 4100 3575
+Text Label 4550 3000 0    50   ~ 0
+I2C0_SCL
+Text Label 4550 3100 0    50   ~ 0
+I2C0_SDA
+Wire Wire Line
+	4550 3000 4900 3000
+Wire Wire Line
+	4550 3100 4900 3100
+Text Label 6725 3000 0    50   ~ 0
+I2C1_SCL
+Text Label 6725 3100 0    50   ~ 0
+I2C1_SDA
+Wire Wire Line
+	6725 3000 7400 3000
+Wire Wire Line
+	6725 3100 7400 3100
+$Comp
+L board-rescue:ADC_2x3-put_on_edge J7
+U 1 1 6020B0C9
+P 5375 6075
+F 0 "J7" H 5703 6088 50  0000 L CNN
+F 1 "ADC_2x3" H 5703 5997 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 5675 6725 50  0001 C CNN
+F 3 "" H 5675 6725 50  0001 C CNN
+	1    5375 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 6020B970
+P 5325 6625
+F 0 "#PWR0116" H 5325 6375 50  0001 C CNN
+F 1 "GND" H 5330 6452 50  0000 C CNN
+F 2 "" H 5325 6625 50  0001 C CNN
+F 3 "" H 5325 6625 50  0001 C CNN
+	1    5325 6625
+	1    0    0    -1  
+$EndComp
+Text Label 4425 5875 0    50   ~ 0
+ADC_VREF
+Text Label 4425 6175 0    50   ~ 0
+ADC2
+Text Label 4425 6075 0    50   ~ 0
+ADC1
+Text Label 4425 5975 0    50   ~ 0
+ADC0
+Wire Wire Line
+	4925 5875 4425 5875
+Wire Wire Line
+	4925 6175 4425 6175
+Wire Wire Line
+	4925 6075 4425 6075
+Wire Wire Line
+	4925 5975 4425 5975
+Text Label 4425 6275 0    50   ~ 0
+ADC3
+Wire Wire Line
+	4925 6275 4425 6275
+Wire Wire Line
+	4100 3775 3600 3775
+Wire Wire Line
+	4100 3875 3600 3875
+Text Label 4100 3775 2    50   ~ 0
+UART0_RX
+Text Label 4100 3875 2    50   ~ 0
+UART0_TX
+Text Label 4225 4600 0    50   ~ 0
+UART0_RX
+Text Label 4225 4500 0    50   ~ 0
+UART0_TX
+Wire Wire Line
+	4225 4500 4900 4500
+Wire Wire Line
+	4225 4600 4900 4600
+Wire Wire Line
+	1750 1975 2200 1975
+Wire Wire Line
+	1750 2075 2200 2075
+Wire Wire Line
+	1750 2275 2200 2275
+Wire Wire Line
+	1750 2375 2200 2375
+Wire Wire Line
+	1750 2475 2200 2475
+Wire Wire Line
+	1750 2575 2200 2575
+Text Label 1750 2475 0    50   ~ 0
+UART1_TX
+Text Label 1750 2575 0    50   ~ 0
+UART1_RX
+Text Label 1750 1975 0    50   ~ 0
+SPI0_RX
+Text Label 1750 2075 0    50   ~ 0
+~SPI0_CS
+Text Label 1750 2275 0    50   ~ 0
+SPI0_SCK
+Text Label 1750 2375 0    50   ~ 0
+SPI0_TX
+Wire Wire Line
+	1750 2975 2200 2975
+Wire Wire Line
+	1750 3075 2200 3075
+Wire Wire Line
+	1750 3275 2200 3275
+Wire Wire Line
+	1750 3375 2200 3375
+Text Label 1750 2975 0    50   ~ 0
+SPI1_RX
+Text Label 1750 3075 0    50   ~ 0
+~SPI1_CS
+Text Label 1750 3275 0    50   ~ 0
+SPI1_SCK
+Text Label 1750 3375 0    50   ~ 0
+SPI1_TX
+Text Label 6775 4500 0    50   ~ 0
+UART1_TX
+Text Label 6775 4600 0    50   ~ 0
+UART1_RX
+Wire Wire Line
+	6775 4500 7400 4500
+Wire Wire Line
+	6775 4600 7400 4600
+Text Label 4275 1500 0    50   ~ 0
+SPI0_RX
+Text Label 4275 1700 0    50   ~ 0
+~SPI0_CS
+Text Label 4275 1600 0    50   ~ 0
+SPI0_SCK
+Text Label 4275 1400 0    50   ~ 0
+SPI0_TX
+Text Label 6775 1500 0    50   ~ 0
+SPI1_RX
+Text Label 6775 1700 0    50   ~ 0
+~SPI1_CS
+Text Label 6775 1600 0    50   ~ 0
+SPI1_SCK
+Text Label 6775 1400 0    50   ~ 0
+SPI1_TX
+Wire Wire Line
+	6775 1700 7400 1700
+Wire Wire Line
+	6775 1400 7400 1400
+Wire Wire Line
+	6775 1600 7400 1600
+Wire Wire Line
+	6775 1500 7400 1500
+Wire Wire Line
+	4275 1400 4900 1400
+Wire Wire Line
+	4275 1600 4900 1600
+Wire Wire Line
+	4275 1700 4900 1700
+Wire Wire Line
+	4275 1500 4900 1500
+$Comp
+L power:GND #PWR?
+U 1 1 603AC5D2
+P 2900 4075
+F 0 "#PWR?" H 2900 3825 50  0001 C CNN
+F 1 "GND" H 2905 3902 50  0000 C CNN
+F 2 "" H 2900 4075 50  0001 C CNN
+F 3 "" H 2900 4075 50  0001 C CNN
+	1    2900 4075
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2800 4075
+NoConn ~ 3000 4075
+$EndSCHEMATC

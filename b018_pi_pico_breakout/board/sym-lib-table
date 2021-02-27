@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/lib/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name put_on_edge)(type Legacy)(uri C:/git/osf/put_on_edge/put_on_edge.lib)(options "")(descr ""))
+  (lib (name board-rescue)(type Legacy)(uri ${KIPRJMOD}/board-rescue.lib)(options "")(descr ""))
+)
