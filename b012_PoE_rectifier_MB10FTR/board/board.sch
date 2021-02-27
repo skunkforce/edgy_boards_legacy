@@ -1,0 +1,164 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode_Bridge:MB2S D1
+U 1 1 6031CBF0
+P 5375 3175
+F 0 "D1" H 5719 3221 50  0000 L CNN
+F 1 "MB2S" H 5719 3130 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-269AA" H 5525 3300 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88661/mb2s.pdf" H 5375 3175 50  0001 C CNN
+	1    5375 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:004_BASE-T_CT_2x3 J1
+U 1 1 6031D679
+P 3850 3600
+F 0 "J1" H 3767 4265 50  0000 C CNN
+F 1 "004_BASE-T_CT_2x3" H 3767 4174 50  0000 C CNN
+F 2 "on_edge:on_edge_2x03_device" H 4150 4250 50  0001 C CNN
+F 3 "" H 4150 4250 50  0001 C CNN
+	1    3850 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:PoE_2x2 J2
+U 1 1 6031DED2
+P 6825 3825
+F 0 "J2" H 7153 3838 50  0000 L CNN
+F 1 "PoE_2x2" H 7153 3747 50  0000 L CNN
+F 2 "on_edge:on_edge_2x02_host" H 7125 4475 50  0001 C CNN
+F 3 "" H 7125 4475 50  0001 C CNN
+	1    6825 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_Bridge:MB2S D2
+U 1 1 6031F062
+P 5375 4025
+F 0 "D2" H 5719 4071 50  0000 L CNN
+F 1 "MB2S" H 5719 3980 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-269AA" H 5525 4150 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88661/mb2s.pdf" H 5375 4025 50  0001 C CNN
+	1    5375 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 3725 6325 3725
+Wire Wire Line
+	6325 3725 6325 3625
+Wire Wire Line
+	6325 3175 5675 3175
+Wire Wire Line
+	6375 3625 6325 3625
+Connection ~ 6325 3625
+Wire Wire Line
+	6325 3625 6325 3175
+Wire Wire Line
+	5675 4025 6325 4025
+Wire Wire Line
+	6325 4025 6325 3725
+Connection ~ 6325 3725
+Wire Wire Line
+	5075 4025 5025 4025
+Wire Wire Line
+	5025 4025 5025 4500
+$Comp
+L power:GND #PWR0101
+U 1 1 6032009E
+P 5025 4500
+F 0 "#PWR0101" H 5025 4250 50  0001 C CNN
+F 1 "GND" H 5030 4327 50  0000 C CNN
+F 2 "" H 5025 4500 50  0001 C CNN
+F 3 "" H 5025 4500 50  0001 C CNN
+	1    5025 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 603203AA
+P 6825 4425
+F 0 "#PWR0102" H 6825 4175 50  0001 C CNN
+F 1 "GND" H 6830 4252 50  0000 C CNN
+F 2 "" H 6825 4425 50  0001 C CNN
+F 3 "" H 6825 4425 50  0001 C CNN
+	1    6825 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6775 4375 6775 4400
+Wire Wire Line
+	6775 4400 6825 4400
+Wire Wire Line
+	6825 4400 6825 4425
+Wire Wire Line
+	6825 4400 6875 4400
+Wire Wire Line
+	6875 4400 6875 4375
+Connection ~ 6825 4400
+Wire Wire Line
+	5025 4025 5025 3175
+Wire Wire Line
+	5025 3175 5075 3175
+Connection ~ 5025 4025
+Wire Wire Line
+	4300 3450 4425 3450
+Wire Wire Line
+	4425 3450 4425 2775
+Wire Wire Line
+	4425 2775 5375 2775
+Wire Wire Line
+	5375 2775 5375 2875
+Wire Wire Line
+	4300 3550 5375 3550
+Wire Wire Line
+	5375 3550 5375 3475
+Wire Wire Line
+	4300 3650 5375 3650
+Wire Wire Line
+	5375 3650 5375 3725
+Wire Wire Line
+	4300 3750 4425 3750
+Wire Wire Line
+	4425 3750 4425 4375
+Wire Wire Line
+	4425 4375 5375 4375
+Wire Wire Line
+	5375 4375 5375 4325
+$Comp
+L power:GND #PWR0103
+U 1 1 60323056
+P 3850 4200
+F 0 "#PWR0103" H 3850 3950 50  0001 C CNN
+F 1 "GND" H 3855 4027 50  0000 C CNN
+F 2 "" H 3850 4200 50  0001 C CNN
+F 3 "" H 3850 4200 50  0001 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4150 3800 4175
+Wire Wire Line
+	3800 4175 3850 4175
+Wire Wire Line
+	3850 4175 3850 4200
+Wire Wire Line
+	3850 4175 3900 4175
+Wire Wire Line
+	3900 4175 3900 4150
+Connection ~ 3850 4175
+$EndSCHEMATC
