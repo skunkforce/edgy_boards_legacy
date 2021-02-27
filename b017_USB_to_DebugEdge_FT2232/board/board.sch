@@ -1,0 +1,116 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L put_on_edge:008_USB_2x2 J1
+U 1 1 6036E1AF
+P 2800 3000
+F 0 "J1" H 2717 3665 50  0000 C CNN
+F 1 "008_USB_2x2" H 2717 3574 50  0000 C CNN
+F 2 "on_edge:on_edge_2x02_device" H 3100 3650 50  0001 C CNN
+F 3 "" H 3100 3650 50  0001 C CNN
+	1    2800 3000
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 3750 2500 2250 1750
+U 603703E4
+F0 "Sheet603703E3" 50
+F1 "bridge.sch" 50
+F2 "DP" I L 3750 3000 50 
+F3 "DM" I L 3750 3100 50 
+F4 "VCC" I L 3750 2900 50 
+F5 "TMS" I R 6000 3725 50 
+F6 "TCK" I R 6000 3825 50 
+F7 "~reset" I R 6000 3925 50 
+F8 "TDO" I R 6000 3525 50 
+F9 "TDI" I R 6000 3425 50 
+F10 "TX" I R 6000 3325 50 
+F11 "RX" I R 6000 3225 50 
+F12 "Vref" I R 6000 2900 50 
+$EndSheet
+Wire Wire Line
+	3250 3000 3750 3000
+Wire Wire Line
+	3250 3100 3750 3100
+$Comp
+L power:GND #PWR0101
+U 1 1 60371938
+P 2850 3550
+F 0 "#PWR0101" H 2850 3300 50  0001 C CNN
+F 1 "GND" H 2855 3377 50  0000 C CNN
+F 2 "" H 2850 3550 50  0001 C CNN
+F 3 "" H 2850 3550 50  0001 C CNN
+	1    2850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2900 3250 2900
+$Comp
+L Auto-Intern:DebugEdge_02x05 J2
+U 1 1 60384844
+P 7425 3325
+F 0 "J2" H 7325 2725 50  0000 C CNN
+F 1 "DebugEdge_02x05" H 7025 2850 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_host" H 7425 3725 50  0001 C CNN
+F 3 "" H 7425 3725 50  0001 C CNN
+	1    7425 3325
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6675 3125
+Wire Wire Line
+	6000 3225 6675 3225
+Wire Wire Line
+	6675 3325 6000 3325
+Wire Wire Line
+	6000 3425 6675 3425
+Wire Wire Line
+	6675 3525 6000 3525
+Wire Wire Line
+	8425 3225 8175 3225
+Wire Wire Line
+	6000 3925 8425 3925
+Wire Wire Line
+	8425 3225 8425 3925
+Wire Wire Line
+	6000 3825 8325 3825
+Wire Wire Line
+	8325 3825 8325 3325
+Wire Wire Line
+	8325 3325 8175 3325
+Wire Wire Line
+	6000 3725 8225 3725
+Wire Wire Line
+	8225 3725 8225 3425
+Wire Wire Line
+	8225 3425 8175 3425
+Wire Wire Line
+	7425 4025 7425 3675
+$Comp
+L power:GND #PWR0102
+U 1 1 6038B497
+P 7425 4025
+F 0 "#PWR0102" H 7425 3775 50  0001 C CNN
+F 1 "GND" H 7430 3852 50  0000 C CNN
+F 2 "" H 7425 4025 50  0001 C CNN
+F 3 "" H 7425 4025 50  0001 C CNN
+	1    7425 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2900 7425 2900
+Wire Wire Line
+	7425 2900 7425 2975
+$EndSCHEMATC
