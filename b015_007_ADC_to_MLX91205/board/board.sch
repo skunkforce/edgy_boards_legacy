@@ -33,6 +33,7 @@ F 0 "U1" H 4825 4440 50  0000 C CNN
 F 1 "MLX91205" H 4825 4349 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4747 4350 50  0001 C CNN
 F 3 "https://www.digikey.de/product-detail/de/MLX91205KDC-AAL-003-TU/MLX91205KDC-AAL-003-TU-ND/1995325?utm_campaign=buynow&WT.z_cid=ref_octopart_dkc_buynow&utm_medium=aggregator&curr=eur&site=us&utm_source=octopart" H 4747 4350 50  0001 C CNN
+F 4 "MLX91205" H 4750 3775 50  0001 C CNN "MPN"
 	1    4750 3775
 	-1   0    0    -1  
 $EndComp
