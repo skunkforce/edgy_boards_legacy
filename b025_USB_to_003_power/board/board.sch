@@ -1,0 +1,177 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Auto-Intern:USB4085 J1
+U 1 1 604391F7
+P 2675 3525
+F 0 "J1" H 2617 2310 50  0000 C CNN
+F 1 "USB4085" H 2617 2401 50  0000 C CNN
+F 2 "AI-footprints:USB4085-GF-A" H 2675 4225 50  0001 C CNN
+F 3 "file:///C:/Users/marie/Downloads/Telegram%20Desktop/Ionex_USB_Conn_Br.pdf" H 2675 4225 50  0001 C CNN
+	1    2675 3525
+	-1   0    0    1   
+$EndComp
+$Comp
+L put_on_edge:003_power_2x5 J2
+U 1 1 6043B711
+P 9375 3200
+F 0 "J2" H 9703 3213 50  0000 L CNN
+F 1 "003_power_2x5" H 9703 3122 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 9675 3850 50  0001 C CNN
+F 3 "" H 9675 3850 50  0001 C CNN
+	1    9375 3200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5525 1300 750  925 
+U 6043D1E1
+F0 "3.3v" 50
+F1 "3.3v.sch" 50
+F2 "out" I R 6275 1500 50 
+F3 "in" I L 5525 1500 50 
+$EndSheet
+$Sheet
+S 5550 2600 725  975 
+U 6043D363
+F0 "2.5v" 50
+F1 "2.5v.sch" 50
+F2 "out" I R 6275 2750 50 
+F3 "in" I L 5550 2750 50 
+$EndSheet
+$Sheet
+S 5550 3825 725  925 
+U 6043D3FA
+F0 "1.8v" 50
+F1 "1.8v.sch" 50
+F2 "out" I R 6275 4000 50 
+F3 "in" I L 5550 4000 50 
+$EndSheet
+$Sheet
+S 5550 5025 725  800 
+U 6043D498
+F0 "1.2v" 50
+F1 "1.2v.sch" 50
+F2 "out" I R 6275 5250 50 
+F3 "in" I L 5550 5250 50 
+$EndSheet
+Wire Wire Line
+	8925 3000 7325 3000
+Wire Wire Line
+	7325 3000 7325 1500
+Wire Wire Line
+	7325 1500 6275 1500
+Wire Wire Line
+	7050 3200 7050 2750
+Wire Wire Line
+	7050 2750 6275 2750
+Wire Wire Line
+	7050 3200 8925 3200
+Wire Wire Line
+	7050 3300 7050 4000
+Wire Wire Line
+	7050 4000 6275 4000
+Wire Wire Line
+	6275 5250 7325 5250
+Wire Wire Line
+	7325 5250 7325 3400
+Wire Wire Line
+	7325 3400 8925 3400
+Wire Wire Line
+	7050 3300 8925 3300
+Wire Wire Line
+	8925 3100 7200 3100
+Wire Wire Line
+	7200 3100 7200 2400
+Wire Wire Line
+	7200 2400 5150 2400
+Wire Wire Line
+	5150 2400 5150 2750
+Wire Wire Line
+	5150 3775 2975 3775
+Wire Wire Line
+	5550 5250 5150 5250
+Wire Wire Line
+	5150 5250 5150 4000
+Connection ~ 5150 3775
+Wire Wire Line
+	5550 4000 5150 4000
+Connection ~ 5150 4000
+Wire Wire Line
+	5150 4000 5150 3775
+Wire Wire Line
+	5550 2750 5150 2750
+Connection ~ 5150 2750
+Wire Wire Line
+	5150 2750 5150 3775
+Wire Wire Line
+	5150 2400 5150 1500
+Wire Wire Line
+	5150 1500 5525 1500
+Connection ~ 5150 2400
+Wire Wire Line
+	2975 2575 3200 2575
+Wire Wire Line
+	3200 2575 3200 3950
+$Comp
+L power:GND #PWR0101
+U 1 1 6044056A
+P 3200 3950
+F 0 "#PWR0101" H 3200 3700 50  0001 C CNN
+F 1 "GND" H 3205 3777 50  0000 C CNN
+F 2 "" H 3200 3950 50  0001 C CNN
+F 3 "" H 3200 3950 50  0001 C CNN
+	1    3200 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2975 3075
+NoConn ~ 2975 3175
+NoConn ~ 2975 3275
+NoConn ~ 2975 3375
+$Comp
+L power:GND #PWR0111
+U 1 1 6044C4B3
+P 9375 3800
+F 0 "#PWR0111" H 9375 3550 50  0001 C CNN
+F 1 "GND" H 9380 3627 50  0000 C CNN
+F 2 "" H 9375 3800 50  0001 C CNN
+F 3 "" H 9375 3800 50  0001 C CNN
+	1    9375 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9175 3750 9175 3775
+Wire Wire Line
+	9175 3775 9275 3775
+Wire Wire Line
+	9575 3775 9575 3750
+Wire Wire Line
+	9475 3750 9475 3775
+Connection ~ 9475 3775
+Wire Wire Line
+	9475 3775 9575 3775
+Wire Wire Line
+	9375 3750 9375 3775
+Connection ~ 9375 3775
+Wire Wire Line
+	9375 3775 9475 3775
+Wire Wire Line
+	9375 3775 9375 3800
+Wire Wire Line
+	9275 3750 9275 3775
+Connection ~ 9275 3775
+Wire Wire Line
+	9275 3775 9375 3775
+$EndSCHEMATC
