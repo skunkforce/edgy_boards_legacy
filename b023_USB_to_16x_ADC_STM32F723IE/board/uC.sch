@@ -424,7 +424,6 @@ NoConn ~ 11800 2650
 NoConn ~ 11700 2650
 NoConn ~ 11600 2650
 NoConn ~ 11500 2650
-NoConn ~ 11400 2650
 NoConn ~ 11300 2650
 NoConn ~ 11200 2650
 NoConn ~ 11100 2650
@@ -432,26 +431,20 @@ NoConn ~ 10700 2650
 NoConn ~ 10600 2650
 NoConn ~ 10500 2650
 NoConn ~ 10400 2650
-NoConn ~ 10300 2650
 NoConn ~ 10200 2650
 NoConn ~ 10100 2650
 NoConn ~ 10000 2650
 NoConn ~ 9000 2650
 NoConn ~ 8800 2650
-NoConn ~ 8600 2650
-NoConn ~ 8500 2650
 NoConn ~ 8400 2650
 NoConn ~ 8300 2650
 NoConn ~ 7900 2650
-NoConn ~ 6800 2650
 NoConn ~ 6900 2650
 NoConn ~ 7000 2650
 NoConn ~ 7100 2650
 NoConn ~ 7200 2650
 NoConn ~ 8300 7550
 NoConn ~ 8400 7550
-NoConn ~ 8500 7550
-NoConn ~ 8600 7550
 NoConn ~ 8700 7550
 NoConn ~ 8800 7550
 NoConn ~ 8900 7550
@@ -488,16 +481,11 @@ NoConn ~ 12300 7550
 NoConn ~ 12400 7550
 NoConn ~ 12500 7550
 NoConn ~ 12600 7550
-NoConn ~ 12800 7550
-NoConn ~ 12900 7550
 NoConn ~ 13000 7550
 NoConn ~ 13100 7550
 NoConn ~ 13200 7550
 NoConn ~ 13300 7550
 NoConn ~ 13400 7550
-NoConn ~ 13500 7550
-NoConn ~ 13600 7550
-NoConn ~ 13700 7550
 NoConn ~ 13800 7550
 NoConn ~ 13900 7550
 NoConn ~ 14000 7550
@@ -1294,4 +1282,76 @@ Wire Wire Line
 Wire Wire Line
 	1075 6150 1500 6150
 Connection ~ 1500 6150
+Text HLabel 8250 2050 0    50   Input ~ 0
+I2C1_SCL
+Wire Wire Line
+	8250 2050 8500 2050
+Wire Wire Line
+	8500 2050 8500 2650
+Text HLabel 8250 1975 0    50   Input ~ 0
+I2C1_SDA
+Wire Wire Line
+	8250 1975 8600 1975
+Wire Wire Line
+	8600 1975 8600 2650
+Text HLabel 12650 7900 0    50   Input ~ 0
+I2C2_SDA
+Text HLabel 12650 7975 0    50   Input ~ 0
+I2C2_SCL
+Wire Wire Line
+	12650 7975 12900 7975
+Wire Wire Line
+	12900 7975 12900 7550
+Wire Wire Line
+	12650 7900 12800 7900
+Wire Wire Line
+	12800 7900 12800 7550
+Text HLabel 9250 1900 0    50   Input ~ 0
+I2C3_SDA
+Text HLabel 5800 1825 0    50   Input ~ 0
+I2C3_SCL
+Wire Wire Line
+	9250 1900 10300 1900
+Wire Wire Line
+	10300 1900 10300 2650
+Wire Wire Line
+	5800 1825 6800 1825
+Wire Wire Line
+	6800 1825 6800 2650
+Text HLabel 11325 1950 0    50   Input ~ 0
+SPI2_SCK
+Wire Wire Line
+	11400 2650 11400 1950
+Wire Wire Line
+	11400 1950 11325 1950
+Text HLabel 8325 7800 0    50   Input ~ 0
+SPI2_MISO
+Text HLabel 8325 7875 0    50   Input ~ 0
+SPI2_MOSI
+Wire Wire Line
+	8325 7875 8600 7875
+Wire Wire Line
+	8600 7875 8600 7550
+Wire Wire Line
+	8325 7800 8500 7800
+Wire Wire Line
+	8500 7800 8500 7550
+Text HLabel 13425 7725 0    50   Input ~ 0
+SPI5_SCK
+Wire Wire Line
+	13425 7725 13500 7725
+Wire Wire Line
+	13500 7725 13500 7550
+Text HLabel 13425 7800 0    50   Input ~ 0
+SPI5_MISO
+Text HLabel 13425 7875 0    50   Input ~ 0
+SPI5_MOSI
+Wire Wire Line
+	13425 7800 13600 7800
+Wire Wire Line
+	13600 7800 13600 7550
+Wire Wire Line
+	13425 7875 13700 7875
+Wire Wire Line
+	13700 7875 13700 7550
 $EndSCHEMATC
