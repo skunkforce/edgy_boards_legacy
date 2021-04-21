@@ -64,7 +64,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 2450 6225 2450
 $Comp
-L put_on_edge:002_SPI_2x5 J1
+L put_on_edge:002_SPI J1
 U 1 1 6033E642
 P 3675 3800
 F 0 "J1" H 3592 4465 50  0000 C CNN
@@ -75,31 +75,9 @@ F 3 "" H 3975 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4125 3450 5175 3450
-Wire Wire Line
-	5175 3450 5175 3650
-Wire Wire Line
-	4125 3550 5075 3550
-Wire Wire Line
-	5075 3950 5625 3950
-Wire Wire Line
-	5075 3550 5075 3950
-Wire Wire Line
-	5625 3850 4125 3850
-Wire Wire Line
-	5625 3650 5175 3650
-Wire Wire Line
-	4975 3750 4975 3650
-Wire Wire Line
-	4975 3650 4125 3650
-Wire Wire Line
-	4975 3750 5625 3750
-Wire Wire Line
 	5625 3550 5275 3550
 Wire Wire Line
 	5275 3550 5275 4050
-Wire Wire Line
-	5275 4050 4125 4050
 NoConn ~ 5625 4050
 NoConn ~ 5625 3450
 NoConn ~ 4125 3950
@@ -308,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	6425 2625 6425 3250
 $Comp
-L put_on_edge:007_ADC_2x5 J2
+L put_on_edge:007_ADC J2
 U 1 1 6034A82D
 P 8400 3950
 F 0 "J2" H 8728 3888 50  0000 L CNN
@@ -426,4 +404,31 @@ F 3 "" H 5275 3175 50  0001 C CNN
 	1    5275 3175
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4125 4050 5275 4050
+Wire Wire Line
+	4300 3950 4300 3550
+Wire Wire Line
+	4300 3550 4125 3550
+Wire Wire Line
+	4300 3950 5625 3950
+Wire Wire Line
+	5625 3850 5175 3850
+Wire Wire Line
+	5175 3850 5175 3450
+Wire Wire Line
+	5175 3450 4125 3450
+Wire Wire Line
+	4650 3750 4650 3650
+Wire Wire Line
+	4650 3650 4125 3650
+Wire Wire Line
+	4650 3750 5625 3750
+NoConn ~ 4125 3750
+Wire Wire Line
+	4125 3850 4900 3850
+Wire Wire Line
+	4900 3850 4900 3650
+Wire Wire Line
+	4900 3650 5625 3650
 $EndSCHEMATC
