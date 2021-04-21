@@ -13,66 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1200 4775 0    50   Input ~ 0
-3v3_in
 Text HLabel 9850 4975 3    50   Input ~ 0
 GND
-Text HLabel 1200 4875 0    50   Input ~ 0
-~RST
-Text HLabel 2400 3975 2    50   Input ~ 0
-TXEN
-Text HLabel 2400 4075 2    50   Input ~ 0
-TXD0
-Text HLabel 2400 4175 2    50   Input ~ 0
-TXD1
-Text HLabel 2400 4275 2    50   Input ~ 0
-RX_ER
 Text HLabel 4775 4400 0    50   Input ~ 0
 RX_ER
-Text HLabel 2400 4375 2    50   Input ~ 0
-RXD0
-Text HLabel 2400 4475 2    50   Input ~ 0
-RXD1
-Text HLabel 2400 4575 2    50   Input ~ 0
-INT_REFCLK
-Text HLabel 2400 4675 2    50   Input ~ 0
-CRS_DV
-Text HLabel 2400 4775 2    50   Input ~ 0
-MDIO
-Text HLabel 2400 4875 2    50   Input ~ 0
-MDC
-Wire Wire Line
-	2000 5350 2100 5350
-Wire Wire Line
-	2000 5225 2000 5350
-Connection ~ 2000 5350
-Wire Wire Line
-	1900 5350 2000 5350
-Wire Wire Line
-	1900 5225 1900 5350
-Connection ~ 1900 5350
-Wire Wire Line
-	1800 5350 1900 5350
-Wire Wire Line
-	1800 5225 1800 5350
-Wire Wire Line
-	2100 5350 2100 5225
-Connection ~ 1800 5350
-Wire Wire Line
-	1725 5350 1800 5350
-Text HLabel 1725 5350 0    50   Input ~ 0
-GND
-$Comp
-L put_on_edge:006_RMII_2x10 J6
-U 1 1 604D767F
-P 1950 4325
-F 0 "J6" H 2100 4990 50  0000 C CNN
-F 1 "006_RMII_2x10" H 2100 4899 50  0000 C CNN
-F 2 "on_edge:on_edge_2x10_device" H 2250 4975 50  0001 C CNN
-F 3 "" H 2250 4975 50  0001 C CNN
-	1    1950 4325
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 9400 4700
 NoConn ~ 9400 4600
 NoConn ~ 9400 4500
@@ -838,11 +782,12 @@ Wire Wire Line
 Wire Wire Line
 	9900 4900 9900 4925
 $Comp
-L put_on_edge:009_1000BASE-T_2x5 J?
+L put_on_edge:009_1000BASE-T J?
 U 1 1 604D74AF
 P 9850 4350
 AR Path="/602F879F/604D74AF" Ref="J?"  Part="1" 
 AR Path="/60405E01/604D74AF" Ref="J7"  Part="1" 
+AR Path="/604D74AF" Ref="J7"  Part="1" 
 F 0 "J7" H 9767 5015 50  0000 C CNN
 F 1 "009_1000BASE-T_2x5" H 9767 4924 50  0000 C CNN
 F 2 "on_edge:on_edge_2x05_host" H 10150 5000 50  0001 C CNN
@@ -851,19 +796,21 @@ F 3 "" H 10150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L put_on_edge:011_GPIO_2x2 J1
+L put_on_edge:011_GPIO J1
 U 1 1 6032FAA8
-P 8650 5000
-F 0 "J1" H 8978 5013 50  0000 L CNN
-F 1 "011_GPIO_2x2" H 8978 4922 50  0000 L CNN
-F 2 "on_edge:on_edge_2x02_host" H 8950 5650 50  0001 C CNN
-F 3 "" H 8950 5650 50  0001 C CNN
-	1    8650 5000
+P 8650 5150
+AR Path="/6032FAA8" Ref="J1"  Part="1" 
+AR Path="/60405E01/6032FAA8" Ref="J1"  Part="1" 
+F 0 "J1" H 8978 5163 50  0000 L CNN
+F 1 "011_GPIO_2x2" H 8978 5072 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 8950 5800 50  0001 C CNN
+F 3 "" H 8950 5800 50  0001 C CNN
+	1    8650 5150
 	1    0    0    -1  
 $EndComp
-Text HLabel 8600 5550 3    50   Input ~ 0
+Text HLabel 8575 5750 0    50   Input ~ 0
 GND
-Text HLabel 8200 4700 0    50   Input ~ 0
+Text HLabel 8200 5400 0    50   Input ~ 0
 3v3_in
 Connection ~ 6925 4900
 Wire Wire Line
@@ -876,4 +823,13 @@ Wire Wire Line
 	6475 4800 8200 4800
 Wire Wire Line
 	6925 4900 8200 4900
+Wire Wire Line
+	8575 5750 8600 5750
+Wire Wire Line
+	8700 5750 8700 5700
+Wire Wire Line
+	8600 5700 8600 5750
+Connection ~ 8600 5750
+Wire Wire Line
+	8600 5750 8700 5750
 $EndSCHEMATC
