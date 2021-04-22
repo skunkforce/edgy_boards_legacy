@@ -26,7 +26,7 @@ F 3 "" H 3450 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L put_on_edge:007_ADC_2x5 J1
+L put_on_edge:007_ADC J1
 U 1 1 60349C8B
 P 3450 3750
 F 0 "J1" H 3367 4415 50  0000 C CNN
@@ -162,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4050 4000 3250
 $Comp
-L put_on_edge:001_I2C_2x5 J2
+L put_on_edge:001_I2C J2
 U 1 1 604040C2
 P 8525 3950
 F 0 "J2" H 8853 3963 50  0000 L CNN
@@ -187,14 +187,6 @@ Wire Wire Line
 	7975 4050 7975 3250
 Wire Wire Line
 	7975 4050 8075 4050
-Wire Wire Line
-	8075 3950 7675 3950
-Wire Wire Line
-	7675 3950 7675 3650
-Wire Wire Line
-	8075 3850 7750 3850
-Wire Wire Line
-	7750 3850 7750 3550
 $Comp
 L power:VCC #PWR0103
 U 1 1 6040991F
@@ -339,8 +331,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 3450 7350 3650
 Connection ~ 7350 3650
-Wire Wire Line
-	7350 3650 7675 3650
 $Comp
 L Device:C_Small C7
 U 1 1 60413080
@@ -457,7 +447,6 @@ Wire Wire Line
 	4725 4100 4725 4225
 Wire Wire Line
 	5025 4225 5025 4100
-NoConn ~ 8075 3750
 $Comp
 L power:GND #PWR0120
 U 1 1 60421F72
@@ -469,4 +458,12 @@ F 3 "" H 8475 4500 50  0001 C CNN
 	1    8475 4500
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	8075 3750 7750 3750
+Wire Wire Line
+	7750 3750 7750 3550
+Wire Wire Line
+	7350 3650 8075 3650
+NoConn ~ 8075 3950
+NoConn ~ 8075 3850
 $EndSCHEMATC
