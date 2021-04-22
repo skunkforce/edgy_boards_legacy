@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 007_ADC_2x2-put_on_edge
+#
+DEF 007_ADC_2x2-put_on_edge J 0 40 Y Y 1 F N
+F0 "J" -100 550 50 H V C CNN
+F1 "007_ADC_2x2-put_on_edge" 350 550 50 H V C CNN
+F2 "" 300 650 50 H I C CNN
+F3 "" 300 650 50 H I C CNN
+DRAW
+S -350 500 300 -450 0 1 0 f
+X GND 1 -50 -550 100 U 50 50 1 1 W
+X VREF 2 -450 100 100 R 50 50 1 1 B
+X ADC0 3 -450 0 100 R 50 50 1 1 W
+X ADC1 4 -450 -100 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
