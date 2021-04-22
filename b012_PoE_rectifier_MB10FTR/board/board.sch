@@ -26,23 +26,23 @@ F 4 "MB2S" H 5375 3175 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L put_on_edge:004_BASE-T_CT_2x3 J1
+L put_on_edge:004_BASE-T_CT J1
 U 1 1 6031D679
 P 3850 3600
 F 0 "J1" H 3767 4265 50  0000 C CNN
 F 1 "004_BASE-T_CT_2x3" H 3767 4174 50  0000 C CNN
-F 2 "on_edge:on_edge_2x03_device" H 4150 4250 50  0001 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 4150 4250 50  0001 C CNN
 F 3 "" H 4150 4250 50  0001 C CNN
 	1    3850 3600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L put_on_edge:PoE_2x2 J2
+L put_on_edge:013_PoE_rectified J2
 U 1 1 6031DED2
 P 6825 3750
 F 0 "J2" H 7153 3763 50  0000 L CNN
 F 1 "PoE_2x2" H 7153 3672 50  0000 L CNN
-F 2 "on_edge:on_edge_2x02_host" H 7125 4400 50  0001 C CNN
+F 2 "on_edge:on_edge_2x05_host" H 7125 4400 50  0001 C CNN
 F 3 "" H 7125 4400 50  0001 C CNN
 	1    6825 3750
 	1    0    0    -1  
@@ -173,4 +173,18 @@ Wire Wire Line
 	6325 3650 6325 4025
 Wire Wire Line
 	6325 3550 6325 3650
+Wire Wire Line
+	3600 4150 3700 4150
+Connection ~ 3700 4150
+Wire Wire Line
+	3700 4150 3800 4150
+Connection ~ 3800 4150
+Wire Wire Line
+	3800 4150 3900 4150
+Connection ~ 3900 4150
+Wire Wire Line
+	3900 4150 4000 4150
+Connection ~ 4000 4150
+Wire Wire Line
+	4000 4150 4100 4150
 $EndSCHEMATC
