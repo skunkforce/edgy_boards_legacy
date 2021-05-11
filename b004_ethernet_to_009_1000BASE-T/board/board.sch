@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L put_on_edge:009_1000BASE-T J1
+L put_on_edge:014_100BASE-T J1
 U 1 1 602FEEDC
 P 4450 2650
 F 0 "J1" H 4778 2663 50  0000 L CNN
@@ -41,50 +41,6 @@ Wire Wire Line
 NoConn ~ 2100 3400
 NoConn ~ 2100 3500
 $Comp
-L Device:C_Small C1
-U 1 1 60301248
-P 3325 3975
-F 0 "C1" H 3417 4021 50  0000 L CNN
-F 1 "100nF" H 3417 3930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3325 3975 50  0001 C CNN
-F 3 "~" H 3325 3975 50  0001 C CNN
-	1    3325 3975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 60301895
-P 3775 3975
-F 0 "C2" H 3867 4021 50  0000 L CNN
-F 1 "100nF" H 3867 3930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3775 3975 50  0001 C CNN
-F 3 "~" H 3775 3975 50  0001 C CNN
-	1    3775 3975
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 60301B36
-P 3325 4075
-F 0 "#PWR0101" H 3325 3825 50  0001 C CNN
-F 1 "GND" H 3330 3902 50  0000 C CNN
-F 2 "" H 3325 4075 50  0001 C CNN
-F 3 "" H 3325 4075 50  0001 C CNN
-	1    3325 4075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 60301EA5
-P 3775 4075
-F 0 "#PWR0102" H 3775 3825 50  0001 C CNN
-F 1 "GND" H 3780 3902 50  0000 C CNN
-F 2 "" H 3775 4075 50  0001 C CNN
-F 3 "" H 3775 4075 50  0001 C CNN
-	1    3775 4075
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 60302189
 P 4425 3325
@@ -100,12 +56,6 @@ Wire Wire Line
 Connection ~ 4425 3325
 Wire Wire Line
 	4425 3325 4500 3325
-Wire Wire Line
-	3325 3875 3325 3350
-Wire Wire Line
-	3325 3350 2950 3350
-Wire Wire Line
-	3775 3875 3775 2900
 Wire Wire Line
 	3775 2900 2950 2900
 Wire Wire Line
@@ -134,12 +84,8 @@ Wire Wire Line
 	3625 3500 3625 2600
 Wire Wire Line
 	3625 2600 4000 2600
-NoConn ~ 4000 2700
-NoConn ~ 4000 2800
-NoConn ~ 4000 2900
-NoConn ~ 4000 3000
 $Comp
-L put_on_edge:PoE_rectified J3
+L board-rescue:PoE_rectified-put_on_edge J3
 U 1 1 60308801
 P 3700 5125
 F 0 "J3" H 4028 5138 50  0000 L CNN
@@ -287,4 +233,14 @@ NoConn ~ 1800 5625
 NoConn ~ 1800 5525
 NoConn ~ 1800 5425
 NoConn ~ 1800 5325
+Wire Wire Line
+	3775 2900 3775 2700
+Wire Wire Line
+	3775 2700 4000 2700
+Wire Wire Line
+	3900 3350 3900 2800
+Wire Wire Line
+	3900 2800 4000 2800
+Wire Wire Line
+	2950 3350 3900 3350
 $EndSCHEMATC
