@@ -25,7 +25,7 @@ F 3 "file:///C:/Users/marie/Downloads/Telegram%20Desktop/Ionex_USB_Conn_Br.pdf" 
 	-1   0    0    1   
 $EndComp
 $Comp
-L put_on_edge:003_power_2x5 J2
+L put_on_edge:003_power J2
 U 1 1 6043B711
 P 9375 3200
 F 0 "J2" H 9703 3213 50  0000 L CNN

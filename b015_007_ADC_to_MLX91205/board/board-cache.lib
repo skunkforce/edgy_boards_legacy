@@ -60,17 +60,18 @@ F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# put_on_edge_007_ADC_2x5
+# put_on_edge_007_ADC
 #
-DEF put_on_edge_007_ADC_2x5 J 0 40 Y Y 1 F N
+DEF put_on_edge_007_ADC J 0 40 Y Y 1 F N
 F0 "J" -100 550 50 H V C CNN
-F1 "put_on_edge_007_ADC_2x5" 350 550 50 H V C CNN
+F1 "put_on_edge_007_ADC" 350 550 50 H V C CNN
 F2 "" 300 650 50 H I C CNN
 F3 "" 300 650 50 H I C CNN
 DRAW

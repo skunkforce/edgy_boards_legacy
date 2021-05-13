@@ -50,7 +50,7 @@ Wire Wire Line
 Wire Wire Line
 	4075 3675 4300 3675
 $Comp
-L put_on_edge:007_ADC_2x5 J1
+L put_on_edge:007_ADC J1
 U 1 1 60349C8B
 P 3450 3750
 F 0 "J1" H 3367 4415 50  0000 C CNN
