@@ -804,4 +804,8 @@ Wire Wire Line
 	4275 3825 4275 4200
 Wire Wire Line
 	4525 3825 4525 4300
+Text HLabel 9875 3100 2    50   Input ~ 0
+CT
+Wire Wire Line
+	9875 3100 9675 3100
 $EndSCHEMATC

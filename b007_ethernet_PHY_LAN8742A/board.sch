@@ -37,6 +37,7 @@ F17 "TD1+" I R 5750 3175 50
 F18 "TD1-" I R 5750 3275 50 
 F19 "TD2+" I R 5750 3375 50 
 F20 "TD2-" I R 5750 3475 50 
+F21 "CT" I R 5750 3575 50 
 $EndSheet
 Wire Wire Line
 	3575 4550 3575 4675
@@ -154,10 +155,6 @@ Wire Wire Line
 	2650 5575 6250 5575
 Text HLabel 6625 4150 3    50   Input ~ 0
 GND
-NoConn ~ 6175 3875
-NoConn ~ 6175 3775
-NoConn ~ 6175 3675
-NoConn ~ 6175 3575
 Wire Wire Line
 	6625 4100 6575 4100
 Wire Wire Line
@@ -170,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	6675 4075 6675 4100
 $Comp
-L put_on_edge:009_1000BASE-T J?
+L put_on_edge:014_100BASE-T J?
 U 1 1 6082DC8C
 P 6625 3525
 AR Path="/602F879F/6082DC8C" Ref="J?"  Part="1" 
@@ -193,4 +190,13 @@ Wire Wire Line
 	5750 3475 6175 3475
 Wire Wire Line
 	2650 4875 2650 5575
+Wire Wire Line
+	5750 3575 6075 3575
+Wire Wire Line
+	6075 3575 6075 3675
+Wire Wire Line
+	6075 3675 6175 3675
+Wire Wire Line
+	6175 3575 6075 3575
+Connection ~ 6075 3575
 $EndSCHEMATC
