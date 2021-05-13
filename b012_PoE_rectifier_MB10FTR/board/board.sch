@@ -23,7 +23,7 @@ F 2 "Package_TO_SOT_SMD:TO-269AA" H 5525 3300 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88661/mb2s.pdf" H 5375 3175 50  0001 C CNN
 F 4 "MB2S" H 5375 3175 50  0001 C CNN "MPN"
 	1    5375 3175
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L put_on_edge:004_BASE-T_CT J1
@@ -57,7 +57,7 @@ F 2 "Package_TO_SOT_SMD:TO-269AA" H 5525 4150 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88661/mb2s.pdf" H 5375 4025 50  0001 C CNN
 F 4 "MB2S" H 5375 4025 50  0001 C CNN "MPN"
 	1    5375 4025
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6375 3650 6325 3650
@@ -153,10 +153,10 @@ Wire Wire Line
 	3900 4175 3900 4150
 Connection ~ 3850 4175
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 6043C553
 P 5025 3275
-F 0 "#PWR?" H 5025 3025 50  0001 C CNN
+F 0 "#PWR0104" H 5025 3025 50  0001 C CNN
 F 1 "GND" H 5030 3102 50  0000 C CNN
 F 2 "" H 5025 3275 50  0001 C CNN
 F 3 "" H 5025 3275 50  0001 C CNN
@@ -187,4 +187,9 @@ Wire Wire Line
 Connection ~ 4000 4150
 Wire Wire Line
 	4000 4150 4100 4150
+Wire Wire Line
+	6975 4300 6975 4325
+Wire Wire Line
+	6975 4325 6875 4325
+Connection ~ 6875 4325
 $EndSCHEMATC
