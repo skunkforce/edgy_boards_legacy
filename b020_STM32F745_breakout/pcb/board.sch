@@ -122,7 +122,7 @@ $EndSheet
 Wire Wire Line
 	3425 2300 3425 2500
 $Comp
-L Auto-Intern:DebugEdge_02x05 J3
+L board-rescue:DebugEdge_02x05-Auto-Intern J3
 U 1 1 60225955
 P 3425 2850
 F 0 "J3" H 3425 2319 50  0000 C CNN
@@ -198,7 +198,7 @@ NoConn ~ 4900 3250
 NoConn ~ 4900 3150
 NoConn ~ 4900 2300
 $Comp
-L put_on_edge:001_I2C_2x5 J2
+L board-rescue:001_I2C_2x5-put_on_edge J2
 U 1 1 60256684
 P 3325 6000
 F 0 "J2" H 3242 6665 50  0000 C CNN
@@ -228,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 6100 4900 6100
 $Comp
-L put_on_edge:003_power_2x2 J1
+L board-rescue:003_power_2x2-put_on_edge J1
 U 1 1 6026F0B5
 P 1550 1300
 F 0 "J1" H 1878 1313 50  0000 L CNN
@@ -276,7 +276,7 @@ Connection ~ 1550 1875
 Wire Wire Line
 	1550 1875 1500 1875
 $Comp
-L put_on_edge:006_RMII_2x10 J4
+L board-rescue:006_RMII_2x10-put_on_edge J4
 U 1 1 6030DD15
 P 8375 2800
 F 0 "J4" H 9100 2900 50  0000 L CNN
@@ -419,7 +419,7 @@ Wire Wire Line
 	7250 2500 7250 2450
 NoConn ~ 7925 2750
 $Comp
-L put_on_edge:011_GPIO_2x2 J6
+L board-rescue:011_GPIO_2x2-put_on_edge J6
 U 1 1 6020A5E1
 P 3300 4500
 F 0 "J6" H 3217 5165 50  0000 C CNN
