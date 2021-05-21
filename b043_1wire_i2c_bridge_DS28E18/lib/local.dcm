@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS28E18
+D 1-wire I2C/SPI Bridge
+$ENDCMP
+#
+#End Doc Library

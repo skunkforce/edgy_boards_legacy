@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4375 3125 875  1125
+U 60A84648
+F0 "sensor" 50
+F1 "sensor.sch" 50
+F2 "SDA" I L 4375 3225 50 
+F3 "SCL" I L 4375 3325 50 
+F4 "GND" I R 5250 4125 50 
+F5 "3.3V" I L 4375 3425 50 
+$EndSheet
+$Comp
+L put_on_edge:001_I2C J1
+U 1 1 60A8488C
+P 2500 4525
+F 0 "J1" H 2417 5190 50  0000 C CNN
+F 1 "001_I2C" H 2417 5099 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 2800 5175 50  0001 C CNN
+F 3 "" H 2800 5175 50  0001 C CNN
+	1    2500 4525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:001_I2C J2
+U 1 1 60A85020
+P 3775 4525
+F 0 "J2" H 4103 4538 50  0000 L CNN
+F 1 "001_I2C" H 4103 4447 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 4075 5175 50  0001 C CNN
+F 3 "" H 4075 5175 50  0001 C CNN
+	1    3775 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60A86A80
+P 3725 5075
+F 0 "#PWR0101" H 3725 4825 50  0001 C CNN
+F 1 "GND" H 3730 4902 50  0000 C CNN
+F 2 "" H 3725 5075 50  0001 C CNN
+F 3 "" H 3725 5075 50  0001 C CNN
+	1    3725 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60A86E5E
+P 2550 5075
+F 0 "#PWR0102" H 2550 4825 50  0001 C CNN
+F 1 "GND" H 2555 4902 50  0000 C CNN
+F 2 "" H 2550 5075 50  0001 C CNN
+F 3 "" H 2550 5075 50  0001 C CNN
+	1    2550 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4625 3275 4625
+Wire Wire Line
+	2950 4725 3325 4725
+Wire Wire Line
+	2950 4525 3325 4525
+Wire Wire Line
+	3325 4425 2950 4425
+Wire Wire Line
+	2950 4325 3150 4325
+Wire Wire Line
+	3325 4225 3025 4225
+Wire Wire Line
+	4375 3425 3275 3425
+Wire Wire Line
+	3275 3425 3275 4625
+Connection ~ 3275 4625
+Wire Wire Line
+	3275 4625 3325 4625
+Wire Wire Line
+	4375 3325 3150 3325
+Wire Wire Line
+	3150 3325 3150 4325
+Connection ~ 3150 4325
+Wire Wire Line
+	3150 4325 3325 4325
+Wire Wire Line
+	4375 3225 3025 3225
+Wire Wire Line
+	3025 3225 3025 4225
+Connection ~ 3025 4225
+Wire Wire Line
+	3025 4225 2950 4225
+$Comp
+L power:GND #PWR0103
+U 1 1 60A8B074
+P 5450 4300
+F 0 "#PWR0103" H 5450 4050 50  0001 C CNN
+F 1 "GND" H 5455 4127 50  0000 C CNN
+F 2 "" H 5450 4300 50  0001 C CNN
+F 3 "" H 5450 4300 50  0001 C CNN
+	1    5450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4300 5450 4125
+Wire Wire Line
+	5450 4125 5250 4125
+$EndSCHEMATC
