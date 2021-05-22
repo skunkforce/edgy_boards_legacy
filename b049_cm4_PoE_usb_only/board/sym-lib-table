@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name A70-112-331N126)(type Legacy)(uri ${AI_LIB_DIR}/A70-112-331N126.lib)(options "")(descr ""))
+)
