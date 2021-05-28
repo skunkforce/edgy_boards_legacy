@@ -1,0 +1,184 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4675 2500 1375 1700
+U 6083C3A8
+F0 "isolator" 50
+F1 "isolator.sch" 50
+F2 "SCL1" I L 4675 3150 50 
+F3 "SDA1" I L 4675 3050 50 
+F4 "VDD1" I L 4675 3450 50 
+F5 "GND1" I L 4675 3900 50 
+F6 "GND2" I R 6050 3875 50 
+F7 "SCL2" I R 6050 3125 50 
+F8 "SDA2" I R 6050 3025 50 
+F9 "VDD2" I R 6050 3425 50 
+$EndSheet
+$Comp
+L put_on_edge:001_I2C J1
+U 1 1 60A193FC
+P 3200 3350
+F 0 "J1" H 3117 4015 50  0000 C CNN
+F 1 "001_I2C" H 3117 3924 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 3500 4000 50  0001 C CNN
+F 3 "" H 3500 4000 50  0001 C CNN
+	1    3200 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:001_I2C J2
+U 1 1 60A19C16
+P 7275 3325
+F 0 "J2" H 7603 3338 50  0000 L CNN
+F 1 "001_I2C" H 7603 3247 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 7575 3975 50  0001 C CNN
+F 3 "" H 7575 3975 50  0001 C CNN
+	1    7275 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60A1A962
+P 4100 3450
+F 0 "R2" V 3904 3450 50  0000 C CNN
+F 1 "0R" V 3995 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4100 3450 50  0001 C CNN
+F 3 "~" H 4100 3450 50  0001 C CNN
+	1    4100 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3450 3650 3450
+Wire Wire Line
+	4200 3450 4575 3450
+NoConn ~ 3650 3350
+NoConn ~ 3650 3250
+Wire Wire Line
+	3650 3050 4275 3050
+Wire Wire Line
+	4675 3150 3950 3150
+NoConn ~ 3650 3550
+$Comp
+L Device:R_Small R5
+U 1 1 60A1BC1F
+P 6425 3425
+F 0 "R5" V 6229 3425 50  0000 C CNN
+F 1 "0R" V 6320 3425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6425 3425 50  0001 C CNN
+F 3 "~" H 6425 3425 50  0001 C CNN
+	1    6425 3425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6525 3425 6825 3425
+Wire Wire Line
+	6325 3425 6150 3425
+Wire Wire Line
+	6050 3125 6275 3125
+Wire Wire Line
+	6050 3025 6600 3025
+NoConn ~ 6825 3225
+NoConn ~ 6825 3325
+NoConn ~ 6825 3525
+Wire Wire Line
+	6050 3875 7225 3875
+Wire Wire Line
+	4675 3900 3250 3900
+$Comp
+L Device:R_Small R1
+U 1 1 60A1CAA2
+P 3950 2775
+F 0 "R1" H 3891 2729 50  0000 R CNN
+F 1 "d.n.p." H 3891 2820 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 2775 50  0001 C CNN
+F 3 "~" H 3950 2775 50  0001 C CNN
+	1    3950 2775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 60A1D802
+P 4275 2775
+F 0 "R3" H 4216 2729 50  0000 R CNN
+F 1 "d.n.p." H 4216 2820 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4275 2775 50  0001 C CNN
+F 3 "~" H 4275 2775 50  0001 C CNN
+	1    4275 2775
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 2675 4275 2675
+Wire Wire Line
+	4575 2675 4575 3450
+Connection ~ 4275 2675
+Wire Wire Line
+	4275 2675 4575 2675
+Connection ~ 4575 3450
+Wire Wire Line
+	4575 3450 4675 3450
+Wire Wire Line
+	3950 2875 3950 3150
+Connection ~ 3950 3150
+Wire Wire Line
+	3950 3150 3650 3150
+Wire Wire Line
+	4275 2875 4275 3050
+Connection ~ 4275 3050
+Wire Wire Line
+	4275 3050 4675 3050
+$Comp
+L Device:R_Small R4
+U 1 1 60A1F086
+P 6275 2750
+F 0 "R4" H 6216 2704 50  0000 R CNN
+F 1 "d.n.p." H 6216 2795 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6275 2750 50  0001 C CNN
+F 3 "~" H 6275 2750 50  0001 C CNN
+	1    6275 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 60A1F08C
+P 6600 2750
+F 0 "R6" H 6541 2704 50  0000 R CNN
+F 1 "d.n.p." H 6541 2795 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6600 2750 50  0001 C CNN
+F 3 "~" H 6600 2750 50  0001 C CNN
+	1    6600 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6275 2850 6275 3125
+Connection ~ 6275 3125
+Wire Wire Line
+	6275 3125 6825 3125
+Wire Wire Line
+	6600 2850 6600 3025
+Connection ~ 6600 3025
+Wire Wire Line
+	6600 3025 6825 3025
+Wire Wire Line
+	6600 2650 6275 2650
+Wire Wire Line
+	6150 2650 6150 3425
+Connection ~ 6275 2650
+Wire Wire Line
+	6275 2650 6150 2650
+Connection ~ 6150 3425
+Wire Wire Line
+	6150 3425 6050 3425
+$EndSCHEMATC
