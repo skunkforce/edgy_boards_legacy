@@ -1,0 +1,223 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4675 2500 1375 1700
+U 6083C3A8
+F0 "Controller" 50
+F1 "Controller.sch" 50
+F2 "GND" I L 4675 3975 50 
+F3 "VDD" I L 4675 2725 50 
+F4 "SW4" I R 6050 2750 50 
+F5 "SDA" I L 4675 2925 50 
+F6 "SCL" I L 4675 3025 50 
+F7 "poe+" I R 6050 3150 50 
+F8 "SW3" I R 6050 2850 50 
+F9 "SW2" I R 6050 2950 50 
+F10 "SW1" I R 6050 3050 50 
+F11 "int" I L 4675 2825 50 
+$EndSheet
+$Comp
+L power:GND #PWR0101
+U 1 1 6083D028
+P 4550 4050
+F 0 "#PWR0101" H 4550 3800 50  0001 C CNN
+F 1 "GND" H 4555 3877 50  0000 C CNN
+F 2 "" H 4550 4050 50  0001 C CNN
+F 3 "" H 4550 4050 50  0001 C CNN
+	1    4550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4050 4550 3975
+Wire Wire Line
+	4550 3975 4675 3975
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60841520
+P 4475 2575
+F 0 "#PWR0102" H 4475 2425 50  0001 C CNN
+F 1 "+3.3V" H 4490 2748 50  0000 C CNN
+F 2 "" H 4475 2575 50  0001 C CNN
+F 3 "" H 4475 2575 50  0001 C CNN
+	1    4475 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 2575 4475 2725
+Wire Wire Line
+	4475 2725 4675 2725
+$Comp
+L put_on_edge:001_I2C J1
+U 1 1 60864F93
+P 2100 2725
+F 0 "J1" H 2017 3390 50  0000 C CNN
+F 1 "001_I2C" H 2017 3299 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 2400 3375 50  0001 C CNN
+F 3 "" H 2400 3375 50  0001 C CNN
+	1    2100 2725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:003_power J2
+U 1 1 60866483
+P 2125 4375
+F 0 "J2" H 2042 5040 50  0000 C CNN
+F 1 "003_power" H 2042 4949 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 2425 5025 50  0001 C CNN
+F 3 "" H 2425 5025 50  0001 C CNN
+	1    2125 4375
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 2925 3975 2925
+Wire Wire Line
+	3975 2925 3975 2425
+Wire Wire Line
+	3975 2425 2550 2425
+Wire Wire Line
+	2550 2525 3825 2525
+Wire Wire Line
+	3825 2525 3825 3025
+Wire Wire Line
+	3825 3025 4675 3025
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 60867A11
+P 2700 2300
+F 0 "#PWR0103" H 2700 2150 50  0001 C CNN
+F 1 "+3.3V" H 2715 2473 50  0000 C CNN
+F 2 "" H 2700 2300 50  0001 C CNN
+F 3 "" H 2700 2300 50  0001 C CNN
+	1    2700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2300 2700 2825
+Wire Wire Line
+	2700 2825 2550 2825
+Wire Wire Line
+	2575 4575 2625 4575
+Wire Wire Line
+	2625 4575 2625 2925
+Wire Wire Line
+	2625 2925 2550 2925
+Wire Wire Line
+	2575 4475 2700 4475
+Wire Wire Line
+	2700 4475 2700 2825
+Connection ~ 2700 2825
+$Comp
+L power:GND #PWR0104
+U 1 1 608687EC
+P 2125 5000
+F 0 "#PWR0104" H 2125 4750 50  0001 C CNN
+F 1 "GND" H 2130 4827 50  0000 C CNN
+F 2 "" H 2125 5000 50  0001 C CNN
+F 3 "" H 2125 5000 50  0001 C CNN
+	1    2125 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 4925 1925 4975
+Wire Wire Line
+	1925 4975 2025 4975
+Wire Wire Line
+	2325 4975 2325 4925
+Wire Wire Line
+	2125 4925 2125 4975
+Connection ~ 2125 4975
+Wire Wire Line
+	2125 4975 2225 4975
+Wire Wire Line
+	2125 4975 2125 5000
+Wire Wire Line
+	2225 4925 2225 4975
+Connection ~ 2225 4975
+Wire Wire Line
+	2225 4975 2325 4975
+Wire Wire Line
+	2025 4925 2025 4975
+Connection ~ 2025 4975
+Wire Wire Line
+	2025 4975 2125 4975
+$Comp
+L power:GND #PWR0105
+U 1 1 60869B98
+P 2150 3275
+F 0 "#PWR0105" H 2150 3025 50  0001 C CNN
+F 1 "GND" H 2155 3102 50  0000 C CNN
+F 2 "" H 2150 3275 50  0001 C CNN
+F 3 "" H 2150 3275 50  0001 C CNN
+	1    2150 3275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2550 2625
+NoConn ~ 2550 2725
+NoConn ~ 2575 4375
+NoConn ~ 2575 4275
+NoConn ~ 2575 4175
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 60AFD0C8
+P 6725 2950
+F 0 "J3" H 6697 2924 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 6697 2833 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6725 2950 50  0001 C CNN
+F 3 "~" H 6725 2950 50  0001 C CNN
+	1    6725 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2750 6525 2750
+Wire Wire Line
+	6050 3050 6525 3050
+Wire Wire Line
+	6525 2950 6050 2950
+Wire Wire Line
+	6050 2850 6525 2850
+$Comp
+L power:GND #PWR0106
+U 1 1 60AFF414
+P 6475 3300
+F 0 "#PWR0106" H 6475 3050 50  0001 C CNN
+F 1 "GND" H 6480 3127 50  0000 C CNN
+F 2 "" H 6475 3300 50  0001 C CNN
+F 3 "" H 6475 3300 50  0001 C CNN
+	1    6475 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 3300 6475 3250
+Wire Wire Line
+	6475 3250 6525 3250
+Wire Wire Line
+	6525 3150 6050 3150
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60B025B4
+P 4175 2750
+F 0 "TP1" H 4233 2868 50  0000 L CNN
+F 1 "int_tp" H 4233 2777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4375 2750 50  0001 C CNN
+F 3 "~" H 4375 2750 50  0001 C CNN
+	1    4175 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 2750 4175 2825
+Wire Wire Line
+	4175 2825 4675 2825
+$EndSCHEMATC
