@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name board-rescue)(type Legacy)(uri C:/git/pcb_enclosure/ethernet/4_port_Gbit_PoE_switch_100w_managed/pcb/board-rescue.lib)(options "")(descr ""))
+  (lib (name local)(type Legacy)(uri ${OSF_LIB_DIR}/things_on_edge/b025_USB_to_003_power/board/lib/local.lib)(options "")(descr ""))
 )

@@ -13,12 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7200 3750 2    50   Input ~ 0
+Text HLabel 7800 3750 2    50   Input ~ 0
 out
 Text HLabel 4275 3550 0    50   Input ~ 0
 in
 $Comp
-L board-rescue:AP3429-Auto-Intern U?
+L local:AP3429 U?
 U 1 1 6044B9A4
 P 5075 3750
 AR Path="/5F95CCBC/6044B9A4" Ref="U?"  Part="1" 
@@ -67,16 +67,16 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 6044B9B6
-P 7200 3875
+P 7800 3875
 AR Path="/5F95CCBC/5FD788D8/6044B9B6" Ref="C?"  Part="1" 
 AR Path="/5F95CCBC/5FD98D3A/6044B9B6" Ref="C?"  Part="1" 
 AR Path="/5FB0C90F/5FD98D3A/6044B9B6" Ref="C?"  Part="1" 
 AR Path="/6043D498/6044B9B6" Ref="C12"  Part="1" 
-F 0 "C12" H 7292 3921 50  0000 L CNN
-F 1 "22uF" H 7292 3830 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7200 3875 50  0001 C CNN
-F 3 "~" H 7200 3875 50  0001 C CNN
-	1    7200 3875
+F 0 "C12" H 7892 3921 50  0000 L CNN
+F 1 "22uF" H 7892 3830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7800 3875 50  0001 C CNN
+F 3 "~" H 7800 3875 50  0001 C CNN
+	1    7800 3875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -138,7 +138,7 @@ AR Path="/5FB0C90F/5FD98D3A/6044B9D2" Ref="R?"  Part="1"
 AR Path="/6043D1E1/6044B9D2" Ref="R?"  Part="1" 
 AR Path="/6043D498/6044B9D2" Ref="R5"  Part="1" 
 F 0 "R5" H 6534 3946 50  0000 L CNN
-F 1 "??" H 6534 3855 50  0000 L CNN
+F 1 "100k" H 6534 3855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6475 3900 50  0001 C CNN
 F 3 "~" H 6475 3900 50  0001 C CNN
 	1    6475 3900
@@ -178,16 +178,11 @@ Wire Wire Line
 	6825 3750 6825 3775
 Connection ~ 6475 3750
 Wire Wire Line
-	6825 3750 7200 3750
+	7425 3750 7800 3750
 Wire Wire Line
-	7200 3750 7200 3775
-Connection ~ 6825 3750
+	7800 3750 7800 3775
 Wire Wire Line
-	7200 3975 7200 4050
-Wire Wire Line
-	6825 3975 6825 4050
-Wire Wire Line
-	6825 4050 7200 4050
+	7800 3975 7800 4050
 $Comp
 L power:GND #PWR?
 U 1 1 6044B9EF
@@ -227,9 +222,6 @@ F 3 "" H 6825 4100 50  0001 C CNN
 	1    6825 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6825 4100 6825 4050
-Connection ~ 6825 4050
 $Comp
 L power:GND #PWR?
 U 1 1 6044BA02
@@ -248,4 +240,27 @@ $EndComp
 Wire Wire Line
 	4275 4050 4275 3850
 Connection ~ 4275 3850
+Wire Wire Line
+	6825 3975 6825 4050
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60B6362C
+P 7325 3750
+AR Path="/6043D1E1/60B6362C" Ref="FB?"  Part="1" 
+AR Path="/6043D498/60B6362C" Ref="FB4"  Part="1" 
+F 0 "FB4" V 7088 3750 50  0000 C CNN
+F 1 "120R" V 7179 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7255 3750 50  0001 C CNN
+F 3 "~" H 7325 3750 50  0001 C CNN
+	1    7325 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7225 3750 6825 3750
+Connection ~ 6825 3750
+Wire Wire Line
+	6825 4050 7800 4050
+Connection ~ 6825 4050
+Wire Wire Line
+	6825 4050 6825 4100
 $EndSCHEMATC
