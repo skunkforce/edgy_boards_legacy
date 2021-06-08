@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name board-rescue)(type Legacy)(uri ${KIPRJMOD}/board-rescue.lib)(options "")(descr ""))
+  (lib (name local)(type Legacy)(uri ${OSF_LIB_DIR}/things_on_edge/b052_PoE_PD_DCDC_non-isolated_buck_MP8007/board/lib/local.lib)(options "")(descr ""))
+)
