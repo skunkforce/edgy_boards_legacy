@@ -243,12 +243,12 @@ Wire Wire Line
 Wire Wire Line
 	4525 4550 4975 4550
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO2
+L Graphic:Logo_Open_Hardware_Large l1
 U 1 1 60BD71E9
 P 10425 5975
-F 0 "#LOGO2" H 10425 6475 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 10425 5575 50  0001 C CNN
-F 2 "Symbol:OSHW-Symbol_44.5x40mm_Copper" H 10425 5975 50  0001 C CNN
+F 0 "l1" H 10425 6475 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Larg" H 10425 5575 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 10425 5975 50  0001 C CNN
 F 3 "~" H 10425 5975 50  0001 C CNN
 	1    10425 5975
 	1    0    0    -1  
