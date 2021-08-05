@@ -243,4 +243,15 @@ Wire Wire Line
 	3900 2800 4000 2800
 Wire Wire Line
 	2950 3350 3900 3350
+$Comp
+L Graphic:Logo_Open_Hardware_Large l1
+U 1 1 6111043A
+P 6925 5825
+F 0 "l1" H 6925 6325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 6925 5425 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 6925 5825 50  0001 C CNN
+F 3 "~" H 6925 5825 50  0001 C CNN
+	1    6925 5825
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
