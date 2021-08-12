@@ -30,6 +30,7 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **Status:** ordered, not yet tested
 ## Microcontroller
 ## Pinconnectors
+**b003** generic jumper pins on a pass through connector.
 **b005** generic pin sockets on a pass through connector.
 
 
