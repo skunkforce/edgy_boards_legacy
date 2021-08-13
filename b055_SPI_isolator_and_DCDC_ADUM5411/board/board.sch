@@ -1,0 +1,92 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4675 2500 1375 1700
+U 6083C3A8
+F0 "isolator" 50
+F1 "isolator.sch" 50
+F2 "VDD1" I L 4675 3450 50 
+F3 "GND1" I L 4675 3900 50 
+F4 "GND2" I R 6050 3875 50 
+F5 "VDD2" I R 6050 3425 50 
+F6 "ISCLK" I L 4675 2950 50 
+F7 "ISDI" I L 4675 2750 50 
+F8 "ICS" I L 4675 3150 50 
+F9 "OSDO" I L 4675 2850 50 
+F10 "ISDO" I R 6050 2825 50 
+F11 "OSDI" I R 6050 2725 50 
+F12 "OSCLK" I R 6050 2925 50 
+F13 "OCS" I R 6050 3125 50 
+F14 "VDDP" I L 4675 3550 50 
+F15 "VISO" I R 6050 3525 50 
+$EndSheet
+$Comp
+L put_on_edge:002_SPI J1
+U 1 1 60A193FC
+P 3200 3100
+F 0 "J1" H 3117 3765 50  0000 C CNN
+F 1 "001_I2C" H 3117 3674 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 3500 3750 50  0001 C CNN
+F 3 "" H 3500 3750 50  0001 C CNN
+	1    3200 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:002_SPI J2
+U 1 1 60A19C16
+P 7275 3075
+F 0 "J2" H 7603 3088 50  0000 L CNN
+F 1 "001_I2C" H 7603 2997 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 7575 3725 50  0001 C CNN
+F 3 "" H 7575 3725 50  0001 C CNN
+	1    7275 3075
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6825 3225
+Wire Wire Line
+	3650 3150 4675 3150
+Wire Wire Line
+	6050 3125 6825 3125
+NoConn ~ 3650 3250
+Wire Wire Line
+	3650 2750 4675 2750
+Wire Wire Line
+	3650 2850 4675 2850
+Wire Wire Line
+	3650 2950 4675 2950
+Wire Wire Line
+	3200 3900 4675 3900
+Wire Wire Line
+	6050 2925 6825 2925
+Wire Wire Line
+	6050 2825 6825 2825
+Wire Wire Line
+	6050 2725 6825 2725
+Wire Wire Line
+	6050 3875 7275 3875
+NoConn ~ 3650 3050
+NoConn ~ 3650 3350
+NoConn ~ 6825 3025
+NoConn ~ 6825 3325
+Wire Wire Line
+	6050 3425 6825 3425
+Wire Wire Line
+	3650 3450 4675 3450
+Wire Wire Line
+	6825 3525 6050 3525
+Wire Wire Line
+	3650 3550 4675 3550
+$EndSCHEMATC
