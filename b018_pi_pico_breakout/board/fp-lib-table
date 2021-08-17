@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name MCU_RaspberryPi_and_Boards)(type KiCad)(uri ${KIPRJMOD}/lib/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
-  (lib (name on_edge)(type KiCad)(uri C:/git/osf/put_on_edge/on_edge.pretty)(options "")(descr ""))
+  (lib (name on_edge)(type KiCad)(uri ${OSF_LIB_DIR}/put_on_edge/on_edge.pretty)(options "")(descr ""))
+  (lib (name local)(type KiCad)(uri ${OSF_LIB_DIR}/things_on_edge/b018_pi_pico_breakout/board/lib/local.pretty)(options "")(descr ""))
 )
