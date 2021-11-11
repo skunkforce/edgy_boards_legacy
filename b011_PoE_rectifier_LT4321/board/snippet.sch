@@ -220,7 +220,7 @@ BG_12
 Wire Wire Line
 	4150 5250 4450 5250
 $Comp
-L Auto-Intern:LT4321 U?
+L board-rescue:LT4321-Auto-Intern U?
 U 1 1 60323155
 P 7150 3850
 AR Path="/5F87DE3B/60323155" Ref="U?"  Part="1" 
