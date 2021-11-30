@@ -548,7 +548,7 @@
     (fp_text reference Y1 (at 0 -2.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Crystal_GND24_Small (at 0 2.45) (layer F.Fab)
+    (fp_text value 12MhZ (at 0 2.45) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.1 -1.7) (end -2.1 -1.7) (layer F.CrtYd) (width 0.05))
