@@ -1,0 +1,165 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L put_on_edge:DebugEdge_02x05 J1
+U 1 1 61A6C8B8
+P 6250 2050
+F 0 "J1" H 6487 1499 50  0000 C CNN
+F 1 "DebugEdge_02x05" H 6487 1590 50  0000 C CNN
+F 2 "on_edge:debug_edge_2x05_host" H 6250 2450 50  0001 C CNN
+F 3 "" H 6250 2450 50  0001 C CNN
+	1    6250 2050
+	1    0    0    1   
+$EndComp
+$Comp
+L modules:STLINK-V3MODS U1
+U 1 1 61A6CF07
+P 3250 2000
+F 0 "U1" H 3875 2165 50  0000 C CNN
+F 1 "STLINK-V3MODS" H 3875 2074 50  0000 C CNN
+F 2 "parts:stlink-v3mods" H 3250 2000 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/00/14/17/68/0f/01/48/01/DM00555046/files/DM00555046.pdf/jcr:content/translations/en.DM00555046.pdf" H 3250 2000 50  0001 C CNN
+	1    3250 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3100 2100
+NoConn ~ 3100 2200
+NoConn ~ 3100 2300
+NoConn ~ 3100 2400
+NoConn ~ 3100 2600
+NoConn ~ 3100 2700
+NoConn ~ 3100 2900
+NoConn ~ 3100 3000
+NoConn ~ 3100 3200
+NoConn ~ 3100 3300
+NoConn ~ 3100 3400
+NoConn ~ 3100 3500
+NoConn ~ 3100 3700
+NoConn ~ 3100 3800
+NoConn ~ 3100 3900
+NoConn ~ 3100 4000
+$Comp
+L put_on_edge:010_UART J2
+U 1 1 61A6FD59
+P 6300 3300
+F 0 "J2" H 6628 3313 50  0000 L CNN
+F 1 "010_UART" H 6628 3222 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 6600 3950 50  0001 C CNN
+F 3 "" H 6600 3950 50  0001 C CNN
+	1    6300 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2950 5850 2950
+Wire Wire Line
+	4650 3050 5850 3050
+NoConn ~ 5850 3150
+NoConn ~ 5850 3250
+NoConn ~ 5850 3350
+Wire Wire Line
+	4650 4000 5350 4000
+Wire Wire Line
+	5350 4000 5350 3650
+Wire Wire Line
+	5350 3650 5850 3650
+Wire Wire Line
+	4650 2200 5150 2200
+Wire Wire Line
+	5150 2200 5150 1950
+Wire Wire Line
+	5150 1950 5500 1950
+Wire Wire Line
+	4650 2750 5250 2750
+Wire Wire Line
+	5250 2750 5250 2050
+Wire Wire Line
+	5250 2050 5500 2050
+Wire Wire Line
+	5500 2150 5400 2150
+Wire Wire Line
+	5400 2150 5400 2550
+Wire Wire Line
+	5400 2550 4650 2550
+Wire Wire Line
+	4650 2650 7150 2650
+Wire Wire Line
+	7150 2650 7150 2250
+Wire Wire Line
+	7150 2250 7000 2250
+NoConn ~ 7000 1850
+NoConn ~ 7000 1950
+NoConn ~ 7000 2050
+Wire Wire Line
+	4650 2400 5500 2400
+Wire Wire Line
+	5500 2400 5500 2600
+Wire Wire Line
+	5500 2600 7100 2600
+Wire Wire Line
+	7100 2600 7100 2150
+Wire Wire Line
+	7100 2150 7000 2150
+$Comp
+L power:GND #PWR0101
+U 1 1 61A76688
+P 6250 3850
+F 0 "#PWR0101" H 6250 3600 50  0001 C CNN
+F 1 "GND" H 6255 3677 50  0000 C CNN
+F 2 "" H 6250 3850 50  0001 C CNN
+F 3 "" H 6250 3850 50  0001 C CNN
+	1    6250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61A76C22
+P 6250 2400
+F 0 "#PWR0102" H 6250 2150 50  0001 C CNN
+F 1 "GND" H 6255 2227 50  0000 C CNN
+F 2 "" H 6250 2400 50  0001 C CNN
+F 3 "" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1700 6250 1650
+Wire Wire Line
+	6250 1650 5050 1650
+Wire Wire Line
+	5050 1650 5050 2100
+Wire Wire Line
+	5050 2100 4650 2100
+$Comp
+L power:GND #PWR?
+U 1 1 61A783DB
+P 4900 4100
+F 0 "#PWR?" H 4900 3850 50  0001 C CNN
+F 1 "GND" H 4905 3927 50  0000 C CNN
+F 2 "" H 4900 4100 50  0001 C CNN
+F 3 "" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4100 4900 3900
+Wire Wire Line
+	4900 3900 4650 3900
+Wire Wire Line
+	4650 3800 4900 3800
+Wire Wire Line
+	4900 3800 4900 3900
+Connection ~ 4900 3900
+$EndSCHEMATC
