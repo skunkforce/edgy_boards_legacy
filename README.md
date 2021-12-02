@@ -16,9 +16,17 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 ### Phys
 **b007** 100Mbit PHY featuring LAN8742A
 **Status:** tested with b004.
+
 **b008** 100Mbit PHY featuring KSZ8081RND
 **Status:** not finished.
+
 ### PoE
+**b011** PoE++ Rectifier using LT4321
+
+**b027** PoE++ PD using LT4275
+
+**b029** PoE++ PSE using LTC4266
+
 ## USB
 **b006** 4 port USB hub featuring GL850G.
 **Status:** tested.
