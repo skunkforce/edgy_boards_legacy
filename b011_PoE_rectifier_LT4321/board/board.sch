@@ -66,17 +66,6 @@ Wire Wire Line
 Connection ~ 4300 3475
 Wire Wire Line
 	4300 3475 4350 3475
-$Comp
-L put_on_edge:013_PoE_rectified J2
-U 1 1 60326398
-P 6850 2950
-F 0 "J2" H 7178 2963 50  0000 L CNN
-F 1 "PoE_2x2" H 7178 2872 50  0000 L CNN
-F 2 "on_edge:on_edge_2x05_host" H 7150 3600 50  0001 C CNN
-F 3 "" H 7150 3600 50  0001 C CNN
-	1    6850 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 2750 6350 2750
 Wire Wire Line
@@ -135,4 +124,26 @@ Wire Wire Line
 Wire Wire Line
 	7000 3550 6900 3550
 Connection ~ 6900 3550
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 61A93249
+P 7400 5150
+F 0 "LOGO1" H 7400 5425 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7400 4925 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 7400 5150 50  0001 C CNN
+F 3 "~" H 7400 5150 50  0001 C CNN
+	1    7400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:013_PoE_rectified J2
+U 1 1 61A93B5B
+P 6850 2950
+F 0 "J2" H 7178 2963 50  0000 L CNN
+F 1 "013_PoE_rectified" H 7178 2872 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 7150 3600 50  0001 C CNN
+F 3 "" H 7150 3600 50  0001 C CNN
+	1    6850 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
