@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name parts)(type Legacy)(uri ${OSF_LIB_DIR}/things_on_edge/b051_USB_to_008_USB/board/parts.lib)(options "")(descr ""))
+)
