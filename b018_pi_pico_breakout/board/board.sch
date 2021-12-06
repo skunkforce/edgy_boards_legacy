@@ -587,7 +587,7 @@ U 1 1 6090ED55
 P 1375 5650
 F 0 "J8" H 1613 5099 50  0000 C CNN
 F 1 "DebugEdge_02x05" H 1850 5200 50  0000 C CNN
-F 2 "on_edge:on_edge_2x05_device" H 1375 6050 50  0001 C CNN
+F 2 "on_edge:debug_edge_2x05_device" H 1375 6050 50  0001 C CNN
 F 3 "" H 1375 6050 50  0001 C CNN
 	1    1375 5650
 	-1   0    0    1   
