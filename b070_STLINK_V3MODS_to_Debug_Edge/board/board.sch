@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -25,7 +25,7 @@ F 3 "" H 6250 2450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L modules:STLINK-V3MODS U1
+L board-rescue:STLINK-V3MODS-modules U1
 U 1 1 61A6CF07
 P 3250 2000
 F 0 "U1" H 3875 2165 50  0000 C CNN
@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4000 5350 3650
 Wire Wire Line
-	5350 3650 5850 3650
+	5350 3650 5600 3650
 Wire Wire Line
 	4650 2200 5150 2200
 Wire Wire Line
@@ -162,4 +162,71 @@ Wire Wire Line
 Wire Wire Line
 	4900 3800 4900 3900
 Connection ~ 4900 3900
+$Sheet
+S 4100 4650 1875 1000
+U 61B08197
+F0 "5V_to_3.3V" 50
+F1 "5V_to_3.3V.sch" 50
+F2 "5V_in" I L 4100 4950 50 
+F3 "3.3V_out" I R 5975 4950 50 
+$EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 61B092F6
+P 3925 4825
+F 0 "#PWR?" H 3925 4675 50  0001 C CNN
+F 1 "+5V" H 3940 4998 50  0000 C CNN
+F 2 "" H 3925 4825 50  0001 C CNN
+F 3 "" H 3925 4825 50  0001 C CNN
+	1    3925 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 4825 3925 4950
+Wire Wire Line
+	3925 4950 4100 4950
+$Comp
+L power:+5V #PWR?
+U 1 1 61B09E33
+P 5600 3650
+F 0 "#PWR?" H 5600 3500 50  0001 C CNN
+F 1 "+5V" H 5615 3823 50  0000 C CNN
+F 2 "" H 5600 3650 50  0001 C CNN
+F 3 "" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 3650
+Wire Wire Line
+	5600 3650 5850 3650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61B0A3EE
+P 6225 4850
+F 0 "#PWR?" H 6225 4700 50  0001 C CNN
+F 1 "+3.3V" H 6240 5023 50  0000 C CNN
+F 2 "" H 6225 4850 50  0001 C CNN
+F 3 "" H 6225 4850 50  0001 C CNN
+	1    6225 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 4850 6225 4950
+Wire Wire Line
+	6225 4950 5975 4950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61B0B1B9
+P 5425 3500
+F 0 "#PWR?" H 5425 3350 50  0001 C CNN
+F 1 "+3.3V" H 5440 3673 50  0000 C CNN
+F 2 "" H 5425 3500 50  0001 C CNN
+F 3 "" H 5425 3500 50  0001 C CNN
+	1    5425 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5425 3500 5425 3550
+Wire Wire Line
+	5425 3550 5850 3550
 $EndSCHEMATC
