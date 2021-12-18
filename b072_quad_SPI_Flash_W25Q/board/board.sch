@@ -1,0 +1,122 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L put_on_edge:018_QSPI J10
+U 1 1 61272941
+P 1700 3000
+F 0 "J10" H 1617 3665 50  0000 C CNN
+F 1 "018_QSPI" H 1617 3574 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 2000 3650 50  0001 C CNN
+F 3 "" H 2000 3650 50  0001 C CNN
+	1    1700 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0130
+U 1 1 61294633
+P 2375 3350
+F 0 "#PWR0130" H 2375 3200 50  0001 C CNN
+F 1 "+3.3V" H 2390 3523 50  0000 C CNN
+F 2 "" H 2375 3350 50  0001 C CNN
+F 3 "" H 2375 3350 50  0001 C CNN
+	1    2375 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 6129AF84
+P 1750 3550
+F 0 "#PWR0131" H 1750 3300 50  0001 C CNN
+F 1 "GND" H 1755 3377 50  0000 C CNN
+F 2 "" H 1750 3550 50  0001 C CNN
+F 3 "" H 1750 3550 50  0001 C CNN
+	1    1750 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ -2900 4350
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 618E34D3
+P 1150 7150
+F 0 "LOGO1" H 1150 7425 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1150 6925 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 1150 7150 50  0001 C CNN
+F 3 "~" H 1150 7150 50  0001 C CNN
+	1    1150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_Flash:W25Q128JVS U1
+U 1 1 61C19DB6
+P 3500 2850
+F 0 "U1" H 3500 3431 50  0000 C CNN
+F 1 "W25Q128JVS" H 3500 3340 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 3500 2850 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 3500 2850 50  0001 C CNN
+F 4 "W25Q16JVSNIQ" H 3500 2850 50  0001 C CNN "MPN"
+	1    3500 2850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2850 2900 2950
+Wire Wire Line
+	2900 2950 3000 2950
+Wire Wire Line
+	3000 3050 2800 3050
+Wire Wire Line
+	2800 3050 2800 2950
+$Comp
+L power:GND #PWR0101
+U 1 1 61C1C788
+P 3500 3250
+F 0 "#PWR0101" H 3500 3000 50  0001 C CNN
+F 1 "GND" H 3505 3077 50  0000 C CNN
+F 2 "" H 3500 3250 50  0001 C CNN
+F 3 "" H 3500 3250 50  0001 C CNN
+	1    3500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3350 2375 3350
+Wire Wire Line
+	2150 3050 2250 3050
+Wire Wire Line
+	2150 2950 2800 2950
+Wire Wire Line
+	2150 2850 2900 2850
+Wire Wire Line
+	2150 2750 3000 2750
+Wire Wire Line
+	2150 2650 3000 2650
+Wire Wire Line
+	2150 3150 2700 3150
+Wire Wire Line
+	2700 3150 2700 3600
+Wire Wire Line
+	2700 3600 4300 3600
+Wire Wire Line
+	4300 3600 4300 2950
+Wire Wire Line
+	4300 2950 4000 2950
+Wire Wire Line
+	4000 2750 4300 2750
+Wire Wire Line
+	4300 2750 4300 2200
+Wire Wire Line
+	4300 2200 2250 2200
+Wire Wire Line
+	2250 2200 2250 3050
+$EndSCHEMATC
