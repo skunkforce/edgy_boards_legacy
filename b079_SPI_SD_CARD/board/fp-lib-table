@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/on_edge.pretty")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${OSF_LIB_DIR}/things_on_edge/b079_SPI_SD_CARD/board/parts.pretty")(options "")(descr ""))
+)

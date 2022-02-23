@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "put_on_edge")(type "Legacy")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.lib")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${OSF_LIB_DIR}/things_on_edge/b079_SPI_SD_CARD/board/parts.kicad_sym")(options "")(descr ""))
+)
