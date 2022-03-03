@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "put_on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.kicad_sym")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.kicad_sym")(options "")(descr ""))
+)
