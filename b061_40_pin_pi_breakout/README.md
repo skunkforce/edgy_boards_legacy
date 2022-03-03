@@ -13,3 +13,9 @@
  - TDO = GPIO22
  - /RESET = GPIO18
 
+# Tests
+## UART
+tested with b018 pi pico
+## SWD
+tested with b018 pi pico
+
