@@ -387,6 +387,24 @@
     (path "/00000000-0000-0000-0000-000060a85020"
       (reference "J2") (unit 1) (value "001_I2C") (footprint "on_edge:on_edge_2x05_host")
     )
+    (path "/00000000-0000-0000-0000-000060a84648/e0ffc4a5-acee-444d-9091-cb09a2fd596a"
+      (reference "R1") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060a84648/ce74344b-32a5-45f1-b0fc-6903c09e3eed"
+      (reference "R2") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060a84648/82370be7-519a-448c-aafb-c59ba6aadd10"
+      (reference "R3") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060a84648/837176e9-8fab-41d2-86dd-da3b1b3dd39f"
+      (reference "R4") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060a84648/ede9cdb6-170f-4f08-a111-3e9308942fce"
+      (reference "R5") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060a84648/ca2c5f3f-362b-4808-b8c2-86726d31aa11"
+      (reference "R6") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-000060a84648/00000000-0000-0000-0000-000060a808a4"
       (reference "U1") (unit 1) (value "M24C02-FDW") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
     )
