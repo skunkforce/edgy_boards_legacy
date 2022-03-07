@@ -844,7 +844,7 @@
       (reference "U1") (unit 1) (value "MCP2517FD-xSL") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-0000617efafa/00000000-0000-0000-0000-0000617fbd53"
-      (reference "Y1") (unit 1) (value "20MhZ") (footprint "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm")
+      (reference "Y1") (unit 1) (value "40MhZ") (footprint "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm")
     )
   )
 )
