@@ -819,7 +819,7 @@
     (uuid 00000000-0000-0000-0000-00006054c92b)
     (property "Reference" "J8" (id 0) (at 61.7982 44.069 0))
     (property "Value" "001_I2C_2x5" (id 1) (at 61.7982 46.3804 0))
-    (property "Footprint" "on_edge:on_edge_2x05_up_host" (id 2) (at 52.07 44.45 0)
+    (property "Footprint" "on_edge:on_edge_2x05_host" (id 2) (at 52.07 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 52.07 44.45 0)
@@ -888,7 +888,7 @@
     (uuid 00000000-0000-0000-0000-0000605839d4)
     (property "Reference" "J11" (id 0) (at 98.6282 101.219 0))
     (property "Value" "002_SPI_2x5" (id 1) (at 98.6282 103.5304 0))
-    (property "Footprint" "on_edge:on_edge_2x05_up_host" (id 2) (at 88.9 101.6 0)
+    (property "Footprint" "on_edge:on_edge_2x05_host" (id 2) (at 88.9 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 88.9 101.6 0)
@@ -979,7 +979,7 @@
     (property "Value" "010_UART" (id 1) (at 255.9812 136.6012 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "on_edge:on_edge_2x05_up_host" (id 2) (at 255.27 118.11 0)
+    (property "Footprint" "on_edge:on_edge_2x05_host" (id 2) (at 255.27 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 255.27 118.11 0)
@@ -1343,16 +1343,16 @@
       (reference "J2") (unit 1) (value "DebugEdge_02x05") (footprint "on_edge:on_edge_2x05_device")
     )
     (path "/00000000-0000-0000-0000-000060ff3dc4"
-      (reference "J6") (unit 1) (value "010_UART") (footprint "on_edge:on_edge_2x05_up_host")
+      (reference "J6") (unit 1) (value "010_UART") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/00000000-0000-0000-0000-00006041d870"
       (reference "J7") (unit 1) (value "007_ADC_2x5") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/00000000-0000-0000-0000-00006054c92b"
-      (reference "J8") (unit 1) (value "001_I2C_2x5") (footprint "on_edge:on_edge_2x05_up_host")
+      (reference "J8") (unit 1) (value "001_I2C_2x5") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/00000000-0000-0000-0000-0000605839d4"
-      (reference "J11") (unit 1) (value "002_SPI_2x5") (footprint "on_edge:on_edge_2x05_up_host")
+      (reference "J11") (unit 1) (value "002_SPI_2x5") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/00c1e055-507e-4aea-8d51-d1497e93b43e"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
