@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "parts")(type "KiCad")(uri "${OSF_LIB_DIR}/skunkforce/things_on_edge/b080_STM32G030_breakout/board/parts.kicad_sym")(options "")(descr ""))
+)

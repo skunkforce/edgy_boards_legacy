@@ -1366,8 +1366,8 @@
     (path "/0657c5fa-b2bd-451d-a7c5-e7aede65f8c7"
       (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005d554801/ba24f435-d71a-4bf1-b1d9-5cb5dd21a939"
-      (reference "U1") (unit 1) (value "STM32G030F6P") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+    (path "/00000000-0000-0000-0000-00005d554801/735d898d-a24b-4702-a923-e2ca1dcf25f5"
+      (reference "U1") (unit 1) (value "STM32G030F6") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005d554801/2f2d29ae-10fc-4b54-abe9-b3620de101e0"
       (reference "Y1") (unit 1) (value "32.768kHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering")
