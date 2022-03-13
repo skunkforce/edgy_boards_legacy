@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name "put_on_edge")(type "Legacy")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.lib")(options "")(descr ""))
   (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.kicad_sym")(options "")(descr ""))
-  (lib (name "7491199312")(type "Legacy")(uri "${OSF_LIB_DIR}/things_on_edge/b076_PoE_PD_DCDC_isolated_SI3404/board/7491199312.lib")(options "")(descr ""))
 )
