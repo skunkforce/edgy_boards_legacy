@@ -87,6 +87,14 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **Status:** tested
 
 ## Microcontroller
+**b018** breakout of the RP2040
+
+**Status:** [b018v2.2rc ordered](https://github.com/skunkforce/things_on_edge/releases/tag/b018v2.2rc)
+
+**b019** breakout of the STM32F042.
+
+**Status:** finished but not ordered (or tested) because STM32F042 is out of stock.
+
 ## Pinconnectors
 **b003** generic jumper pins on a pass through connector.
 
