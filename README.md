@@ -13,14 +13,16 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **b010** 1000BASE-T connector featuring a Würth 615008145521 RJ45 connector.
 
-**Status:** ordered. 
+**Status:** potential problem with 009 pinning.
 
 **b014** ADC to SMA
+
+**status:** tested. 
 
 ### Magnetics
 **b009** 1000BASE-T magnetics in phy to device configuration featuring WE7490220122.
 
-**Status:** not finished.
+**Status:** potential problem with 009 pinning.
 
 **b060** 1000BASE-T magnetics in extractor/injector configuration featuring WE7490220122.
 
@@ -35,10 +37,19 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** not finished.
 
+### Bridges
+**b016** 100Mbit usb to ethernet bridge.
+
+**Status:** ordered.
+
 ### PoE
 **b011** PoE++ Rectifier using LT4321
 
+**status:** ordered, not tested.
+
 **b012** PoE Rectifier using MB10FTR
+
+**status:** ordered, not tested.
 
 **b027** PoE++ PD using LT4275
 
@@ -48,6 +59,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **b006** 4 port USB hub featuring GL850G.
 
 **Status:** tested.
+
+**b017** USB to debug edge using FT2232
+
+**Status:** ordered.
 
 ## CAN
 ### FD
@@ -69,7 +84,7 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
 
-**Status:** ordered, not yet tested
+**Status:** tested
 
 ## Microcontroller
 ## Pinconnectors
@@ -80,9 +95,12 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 ## ADC
 **b013** ADS868x
 
+**status:** ordered, not tested.
+
 ## Sensors
 ### hall effect
 **b015** MLX91205.
+**status:** not finished.
 
 
 
