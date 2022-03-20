@@ -64,6 +64,14 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
+**b021** USB to I2C host using FT260S
+
+**Status:** unfinished.
+
+**b022** USB to I2C device using FT201XS
+
+**Status:** ordered.
+
 ## CAN
 ### FD
 **b065** CAN FD controller with SPI interface featuring MCP2517FD
