@@ -103,6 +103,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** finished but not ordered (or tested) because STM32F042 is out of stock.
 
+**b023** breakout of the STM23F723IE
+
+**Status:** outdated and probably dorment untill the chips are availible again.
+
 ## Pinconnectors
 **b003** generic jumper pins on a pass through connector.
 
@@ -112,6 +116,11 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **b013** ADS868x
 
 **status:** ordered, not tested.
+
+## DAC
+**b024** 4x DAC with I2C interface using MCP4728.
+
+**Status:** ordered, not tested.
 
 ## Sensors
 ### hall effect
