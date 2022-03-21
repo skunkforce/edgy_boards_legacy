@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/on_edge.pretty")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${OSF_LIB_DIR}/delete_this/things_on_edge/b086_magjack_1000BASE-T_PoE+_A70-112-331N126/board/parts.pretty")(options "")(descr ""))
+)
