@@ -89,6 +89,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
+**b025** USB to 4x DCDC 
+
+**Status:** tested.
+
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
 
