@@ -6,6 +6,11 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 # contents by category
 ## Ethernet
+### Switches 
+**b034** 5 port switch using KSZ8895
+
+**Status:** on hold untill the chips are availible.
+
 ### Connectors
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
 
