@@ -16,6 +16,8 @@ fp-info-cache
 *-rescue.*
 */*/gerber/
 */gerber/
+*.prl
+board-backups/
 
 # Netlist files (exported from Eeschema)
 *.net

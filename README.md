@@ -55,6 +55,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **b029** PoE++ PSE using LTC4266
 
+**b033** PoE PD with flyback DCDC
+
+**Status:** on hold untill chips are availible again.
+
 ## USB
 **b006** 4 port USB hub featuring GL850G.
 
@@ -116,6 +120,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **Status:** outdated and probably dorment untill the chips are availible again.
 
 **b030** breakout of STM32F7 100 pin TQFP
+
+**Status:** outdated and probably dorment untill the chips are availible again.
+
+**b032** breakout of STM32F7 100 pin TFBGA
 
 **Status:** outdated and probably dorment untill the chips are availible again.
 
