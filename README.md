@@ -111,6 +111,18 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** outdated and probably dorment untill the chips are availible again.
 
+**b026** breakout of STM32F7 144 pin TQFP
+
+**Status:** outdated and probably dorment untill the chips are availible again.
+
+**b030** breakout of STM32F7 100 pin TQFP
+
+**Status:** outdated and probably dorment untill the chips are availible again.
+
+**b028** STM32F042 with just one I2C connector.
+
+**Status:** abandoned.
+
 ## Pinconnectors
 **b003** generic jumper pins on a pass through connector.
 
