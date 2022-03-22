@@ -133,6 +133,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **status:** ordered, not tested.
 
+**b031** ADS8688 8X differential SPI ADC
+
+**status:** tested.
+
 ## DAC
 **b024** 4x DAC with I2C interface using MCP4728.
 
