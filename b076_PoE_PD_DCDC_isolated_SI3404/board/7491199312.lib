@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 7491199312
+#
+DEF 7491199312 T 0 40 Y N 1 L N
+F0 "T" -400 400 50 H V L BNN
+F1 "7491199312" -400 -150 50 H V L BNN
+F2 "EP13_SMT_H_10PIN_(2381)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -25 350 -25 -50 N
+P 2 0 0 10 25 350 25 -50 N
+S -150 0 -50 300 0 0 0 F
+T 900 -400 100 50 0 0 0 Pri Normal 0 L B
+C -200 250 11 0 0 0 N
+S 50 0 150 300 0 0 0 F
+T 900 450 100 50 0 0 0 Sec Normal 0 L B
+C 200 250 11 0 0 0 N
+X ~ 2 -400 300 300 R 40 40 0 0 P 
+X ~ 1 -400 0 300 R 40 40 0 0 P 
+X ~ 7 400 300 300 L 40 40 0 0 P 
+X ~ 9 400 0 300 L 40 40 0 0 P 
+X ~ 8 500 300 300 L 40 40 0 0 P 
+X ~ 10 500 0 300 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
