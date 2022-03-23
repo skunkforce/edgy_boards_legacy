@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS8166
+K adc analog digital spi bipolar input
+F https://www.ti.com/lit/ds/symlink/ads8166.pdf
+$ENDCMP
+#
+$CMP ADS8167
+K adc analog digital spi bipolar input
+F https://www.ti.com/lit/ds/symlink/ads8166.pdf
+$ENDCMP
+#
+$CMP ADS8168
+K adc analog digital spi bipolar input
+F https://www.ti.com/lit/ds/symlink/ads131m08.pdf
+$ENDCMP
+#
+#End Doc Library
