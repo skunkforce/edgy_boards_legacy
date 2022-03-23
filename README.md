@@ -64,6 +64,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** on hold untill chips are availible again.
 
+**b076** PoE PD with flyback DCDC using SI3404
+
+**Status:** ordered.
+
 ## USB
 **b006** 4 port USB hub featuring GL850G.
 
@@ -82,14 +86,19 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **Status:** ordered.
 
 ## CAN
+**b087** CAN controller with SPI interface featuring MCP2515
+
+**status** initial design.
+
+
 ### FD
 **b065** CAN FD controller with SPI interface featuring MCP2517FD
 
-**status** initial design.
+**status** ordered.
 
 **b066** CAN FD transceiver featuring TJA1441
 
-**status** initial design.
+**status** ordered.
 
 
 ## Regulator
