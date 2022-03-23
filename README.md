@@ -85,6 +85,15 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
+## 1-wire
+**b043** 1wire to I2C bridge using DS28E18
+
+**Status:** ordered, not tested.
+
+**b044** 1wire to SPI bridge using DS28E18
+
+**Status:** ordered, not tested.
+
 ## CAN
 **b087** CAN controller with SPI interface featuring MCP2515
 
@@ -163,6 +172,12 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **b024** 4x DAC with I2C interface using MCP4728.
 
 **Status:** ordered, not tested.
+
+## Isolators
+**b036** I2C isolator featuring ADUM1251
+
+**Status:** ordered, not yet tested.
+
 
 ## Sensors
 ### hall effect
