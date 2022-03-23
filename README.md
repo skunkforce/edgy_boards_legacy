@@ -11,6 +11,14 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** on hold untill the chips are availible.
 
+**b035** 7 port gigabit switch using KSZ9477
+
+**Status:** abandoned untill the chips are availible again.
+
+**b042** 7 port gigabit switch using KSZ9897
+
+**Status:** abandoned untill the chips are availible again.
+
 ### Connectors
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
 
@@ -20,9 +28,13 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** potential problem with 009 pinning.
 
-**b014** ADC to SMA
+**b038** 1000BASE-T connector featuring Würth 7499111121A RJ45 connector.
 
-**status:** tested. 
+**Status:** review needed.
+
+**b039** gigabit SGMII cage.
+
+**Status:** review needed.
 
 ### Magnetics
 **b009** 1000BASE-T magnetics in phy to device configuration featuring WE7490220122.
@@ -41,6 +53,22 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **b008** 100Mbit PHY featuring KSZ8081RND
 
 **Status:** not finished.
+
+**b037** gigabit phy using KSZ9031
+
+**Status:** abandoned untill the chips are availible again.
+
+**b040** gigabit phy using DP83822
+
+**Status:** abandoned untill the chips are availible again.
+
+**b041** gigabit phy ad RMII master using DP83822
+
+**Status:** abandoned untill the chips are availible again.
+
+**b040** gigabit phy using DP83848
+
+**Status:** abandoned untill the chips are availible again.
 
 ### Bridges
 **b016** 100Mbit usb to ethernet bridge.
@@ -68,6 +96,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
+**b076** PoE PD with buck DCDC using MP8007
+
+**Status:** ordered.
+
 ## USB
 **b006** 4 port USB hub featuring GL850G.
 
@@ -85,6 +117,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
+**b051** USB C connector
+
+**Status:** tested.
+
 ## 1-wire
 **b043** 1wire to I2C bridge using DS28E18
 
@@ -93,6 +129,14 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **b044** 1wire to SPI bridge using DS28E18
 
 **Status:** ordered, not tested.
+
+**b045** 1wire to RJ45 connector
+
+**Status:** review needed.
+
+**b048** I2C 1wire master DS2484R
+
+**Status:** review needed.
 
 ## CAN
 **b087** CAN controller with SPI interface featuring MCP2515
@@ -154,10 +198,27 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** abandoned.
 
+**b020** STM32F745 breakout.
+
+**Status:** abandoned untill the chip is availible again.
+
+**b053** STM32F107 64TQFP breakout.
+
+**Status:** abandoned untill the chip is availible again.
+
+## system on a module
+**b049** Raspberry Pi compute module 4 with isolated flyback PoE. 
+
+**Status:** this board is essentially a composition of b076, b080 and a CM4. development of this is paused untill those are fully tested.
+
 ## Pinconnectors
 **b003** generic jumper pins on a pass through connector.
 
 **b005** generic pin sockets on a pass through connector.
+
+**b014** ADC to SMA
+
+**status:** tested. 
 
 ## ADC
 **b013** ADS868x
@@ -178,11 +239,31 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered, not yet tested.
 
+**b055** SPI isolator and DCDC featuring ADUM5411
+
+**Status:** unfinished.
+
+## Memory
+**b046** I2C eeprom M24C02
+
+**Status:** test needed.
+
 
 ## Sensors
 ### hall effect
+
 **b015** MLX91205.
+
 **status:** not finished.
+
+**b047** HDC1080.
+
+**status:** review needed.
+
+## Analog
+**b050** analog preamp using LMV601
+
+**Status:** review needed.
 
 
 
