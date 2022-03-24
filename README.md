@@ -164,6 +164,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** tested.
 
+**b025** 4.5V to 75V buck converter MAX17760
+
+**Status:** needs review.
+
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
 
@@ -229,6 +233,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **status:** tested.
 
+**b056** ADS8160 8X differential SPI ADC
+
+**status:** review needed.
+
 **b056** ADS131M08 8X differential SPI ADC
 
 **status:** ordered.
@@ -266,6 +274,11 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 ## Analog
 **b050** analog preamp using LMV601
+
+**Status:** review needed.
+
+## Other
+**b058** RTC MCP79410
 
 **Status:** review needed.
 
