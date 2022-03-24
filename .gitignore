@@ -16,7 +16,7 @@ fp-info-cache
 *-rescue.*
 */*/gerber/
 */gerber/
-*.prl
+*.kicad_prl
 board-backups/
 
 # Netlist files (exported from Eeschema)
