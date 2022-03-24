@@ -233,7 +233,7 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **status:** tested.
 
-**b056** ADS8160 8X differential SPI ADC
+**b059** ADS8160 8X differential SPI ADC
 
 **status:** review needed.
 
