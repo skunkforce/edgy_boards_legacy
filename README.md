@@ -182,11 +182,11 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
-**b069** buck DCDC MIC28515.
+**b069** 4.5V to 75V input 5A buck DCDC MIC28515.
 
 **Status:** ordered.
 
-**b068** buck DCDC AOZ2152EQI-28.
+**b068** 6.5V to 28V input 5A buck DCDC AOZ2152EQI-28.
 
 **Status:** ordered.
 
@@ -195,6 +195,7 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **Status:** tested.
 
 **b057** 4.5V to 75V buck converter MAX17760
+Output current 300ma
 
 **Status:** needs review.
 
@@ -204,11 +205,12 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
+Output current 200ma.
 
 **Status:** tested
 
 ## Microcontroller
-**b018** breakout of the RP2040
+**b018** breakout of the RP2040 including flash memory.
 
 **Status:** [b018v2.2rc ordered](https://github.com/skunkforce/things_on_edge/releases/tag/b018v2.2rc)
 
