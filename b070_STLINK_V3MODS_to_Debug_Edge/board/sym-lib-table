@@ -1,8 +1,4 @@
 (sym_lib_table
-  (lib (name put_on_edge)(type Legacy)(uri ${OSF_LIB_DIR}/put_on_edge/put_on_edge.lib)(options "")(descr ""))
-  (lib (name parts)(type Legacy)(uri ${OSF_LIB_DIR}/things_on_edge/b070_STLINK_V3MODS_to_Debug_Edge/board/parts.lib)(options "")(descr ""))
-  (lib (name programmers)(type Legacy)(uri /home/odin/git/kicad_libs/symbols/programmers.lib)(options "")(descr ""))
-  (lib (name stm32)(type Legacy)(uri /home/odin/git/kicad_libs/symbols/stm32.lib)(options "")(descr ""))
-  (lib (name modules)(type Legacy)(uri /home/odin/git/kicad_libs/symbols/modules.lib)(options "")(descr ""))
-  (lib (name board-rescue)(type Legacy)(uri ${KIPRJMOD}/board-rescue.lib)(options "")(descr ""))
+  (lib (name "put_on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.kicad_sym")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.kicad_sym")(options "")(descr ""))
 )
