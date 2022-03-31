@@ -36,6 +36,12 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** review needed.
 
+**b086** 1000BASE-T connector featuring A70-112-331N126 PoE capable Magjack.
+
+**Status:** ordered.
+
+
+
 ### Magnetics
 **b009** 1000BASE-T magnetics in phy to device configuration featuring WE7490220122.
 
@@ -66,9 +72,13 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** abandoned untill the chips are availible again.
 
-**b040** gigabit phy using DP83848
+**b054** gigabit phy using DP83848
 
 **Status:** abandoned untill the chips are availible again.
+
+**b078** 100Mbit MAC + PHY with SPI interface W5500
+
+**Status:** ordered.
 
 ### Bridges
 **b016** 100Mbit usb to ethernet bridge.
@@ -96,7 +106,11 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
-**b076** PoE PD with buck DCDC using MP8007
+**b077** PoE PD buck DCDC using SI3404
+
+**Status:** ordered.
+
+**b052** PoE PD with buck DCDC using MP8007
 
 **Status:** ordered.
 
@@ -105,7 +119,15 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** tested.
 
+**b082** 4 port USB hub featuring USB2514B.
+
+**Status:** unfinished.
+
 **b017** USB to debug edge using FT2232
+
+**Status:** ordered.
+
+**b070** USB to debug V3MODS
 
 **Status:** ordered.
 
@@ -160,13 +182,25 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
+**b069** buck DCDC MIC28515.
+
+**Status:** ordered.
+
+**b068** buck DCDC AOZ2152EQI-28.
+
+**Status:** ordered.
+
 **b025** USB to 4x DCDC 
 
 **Status:** tested.
 
-**b025** 4.5V to 75V buck converter MAX17760
+**b057** 4.5V to 75V buck converter MAX17760
 
 **Status:** needs review.
+
+**b085** 4.2V - 18V input 2A buck converter AP6220
+
+**Status:** ordered.
 
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
@@ -181,6 +215,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **b019** breakout of the STM32F042.
 
 **Status:** finished but not ordered (or tested) because STM32F042 is out of stock.
+
+**b080** breakout of the STM32G030.
+
+**Status:** ordered.
 
 **b023** breakout of the STM23F723IE
 
@@ -215,6 +253,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** this board is essentially a composition of b076, b080 and a CM4. development of this is paused untill those are fully tested.
 
+**b071** Raspberry Pi compute module 4. 
+
+**Status:** waiting for tests of b049.
+
 ## Pinconnectors
 **b003** generic jumper pins on a pass through connector.
 
@@ -241,6 +283,14 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **status:** ordered.
 
+**b081** MCP3428 4X 16 bit differential I2C ADC with PGA 15SPS
+
+**status:** ordered.
+
+**b084** ADS131M03 3X differential SPI ADC
+
+**status:** ordered.
+
 ## DAC
 **b024** 4x DAC with I2C interface using MCP4728.
 
@@ -252,6 +302,14 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **Status:** ordered, not yet tested.
 
 **b055** SPI isolator and DCDC featuring ADUM5411
+
+**Status:** unfinished.
+
+**b064** SPI isolator and DCDC featuring ADUM5401
+
+**Status:** unfinished.
+
+**b062** SPI isolator featuring MAX14483
 
 **Status:** unfinished.
 
@@ -272,6 +330,12 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **status:** review needed.
 
+### temperature
+
+**b083** 4x PT100 to I2C using MCP3428.
+
+**status:** ordered.
+
 ## Analog
 **b050** analog preamp using LMV601
 
@@ -282,9 +346,26 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** review needed.
 
+**b079** SPI SD card
+
+**Status:** ordered.
+
+**b073** QSPI EEPROM
+
+**Status:** ordered.
+
+**b072** QSPI EEPROM W25Q
+
+**Status:** ordered.
+
+**b061** 40 pin pi 4 connector breakout
+
+**Status:** tested.
 
 
 
 
 
 
+
+unused b075 b074 b067
