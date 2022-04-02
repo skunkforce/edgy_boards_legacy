@@ -320,8 +320,26 @@ Output current 200ma.
 
 **Status:** test needed.
 
+**b079** SPI SD card
+
+**Status:** ordered.
+
+**b073** QSPI EEPROM
+
+**Status:** ordered.
+
+**b072** QSPI EEPROM W25Q
+
+**Status:** ordered.
+
 
 ## Sensors
+### angle
+
+**b089** 3 axis accelerometer LIS3DHTR.
+
+**Status:** initial.
+
 ### hall effect
 
 **b015** MLX91205.
@@ -338,6 +356,10 @@ Output current 200ma.
 
 **status:** ordered.
 
+**b088** temp humid SHT30-DIS.
+
+**status:** initial.
+
 ## Analog
 **b050** analog preamp using LMV601
 
@@ -347,18 +369,6 @@ Output current 200ma.
 **b058** RTC MCP79410
 
 **Status:** review needed.
-
-**b079** SPI SD card
-
-**Status:** ordered.
-
-**b073** QSPI EEPROM
-
-**Status:** ordered.
-
-**b072** QSPI EEPROM W25Q
-
-**Status:** ordered.
 
 **b061** 40 pin pi 4 connector breakout
 
