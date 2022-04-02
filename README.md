@@ -250,6 +250,10 @@ Output current 200ma.
 
 **Status:** abandoned untill the chip is availible again.
 
+**b090** STM32WL55 LoRa breakout.
+
+**Status:** initial.
+
 ## system on a module
 **b049** Raspberry Pi compute module 4 with isolated flyback PoE. 
 
