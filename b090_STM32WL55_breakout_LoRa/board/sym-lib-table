@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "parts")(type "KiCad")(uri "${OSF_LIB_DIR}/things_on_edge/b090_STM32WL55_breakout_LoRa/board/parts.kicad_sym")(options "")(descr ""))
+  (lib (name "put_on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.kicad_sym")(options "")(descr ""))
+)
