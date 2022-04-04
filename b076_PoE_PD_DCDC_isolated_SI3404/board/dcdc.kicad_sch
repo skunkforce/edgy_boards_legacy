@@ -1955,7 +1955,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 277aaa48-a622-4a2e-bd10-34674a3cd4f4)
     (property "Reference" "D3" (id 0) (at 218.567 58.42 0))
-    (property "Value" "D_Schottky_Small" (id 1) (at 218.567 60.96 0))
+    (property "Value" "SDT10A45P5-13D" (id 1) (at 218.567 60.96 0))
     (property "Footprint" "Diode_SMD:D_PowerDI-5" (id 2) (at 218.44 64.77 90)
       (effects (font (size 1.27 1.27)) hide)
     )

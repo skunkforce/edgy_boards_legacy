@@ -455,7 +455,7 @@
       (reference "D2") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/277aaa48-a622-4a2e-bd10-34674a3cd4f4"
-      (reference "D3") (unit 1) (value "D_Schottky_Small") (footprint "Diode_SMD:D_PowerDI-5")
+      (reference "D3") (unit 1) (value "SDT10A45P5-13D") (footprint "Diode_SMD:D_PowerDI-5")
     )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/299b25fb-2aee-4ff0-8264-b760d96656ea"
       (reference "FB1") (unit 1) (value "700R") (footprint "Inductor_SMD:L_0805_2012Metric")
