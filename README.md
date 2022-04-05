@@ -281,11 +281,11 @@ Output current 200ma.
 
 **status:** tested.
 
-**b059** ADS8160 8X differential SPI ADC
+**b059** ADS8168 8X differential SPI ADC 1MSPS
 
 **status:** review needed.
 
-**b056** ADS131M08 8X differential SPI ADC
+**b056** ADS131M08 8X differential SPI ADC 32kSPS
 
 **status:** ordered.
 
@@ -293,9 +293,13 @@ Output current 200ma.
 
 **status:** ordered.
 
-**b084** ADS131M03 3X differential SPI ADC
+**b084** ADS131M03 3X differential SPI ADC 32kSPS
 
 **status:** ordered.
+
+**b091** ADS131A04 4X differential SPI ADC 128kSPS
+
+**status:** initial.
 
 ## DAC
 **b024** 4x DAC with I2C interface using MCP4728.
