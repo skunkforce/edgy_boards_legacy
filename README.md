@@ -108,7 +108,7 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **b077** PoE PD buck DCDC using SI3404
 
-**Status:** ordered.
+**Status:** incapable of large loads, being investigated.
 
 **b052** PoE PD with buck DCDC using MP8007
 
@@ -212,7 +212,9 @@ Output current 200ma.
 ## Microcontroller
 **b018** breakout of the RP2040 including flash memory.
 
-**Status:** [b018v2.2rc ordered](https://github.com/skunkforce/things_on_edge/releases/tag/b018v2.2rc)
+**Status:** [b018v2.2rc missing I2C resistors, basic functionality otherwise tested](https://github.com/skunkforce/things_on_edge/releases/tag/b018v2.2rc)
+
+[b018v2.3rc ready to order](https://github.com/skunkforce/things_on_edge/releases/tag/b018v2.3rc)
 
 **b019** breakout of the STM32F042.
 
