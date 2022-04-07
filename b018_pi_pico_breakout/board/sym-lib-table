@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/lib/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
-  (lib (name "put_on_edge")(type "Legacy")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.lib")(options "")(descr ""))
+  (lib (name "put_on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.kicad_sym")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.kicad_sym")(options "")(descr ""))
 )
