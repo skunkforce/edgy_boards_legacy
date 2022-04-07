@@ -19,3 +19,14 @@ tested with b018 pi pico
 ## SWD
 tested with b018 pi pico
 
+# issues
+# V0.1
+incorrect debug footprint. I2C pull ups missing.
+
+# V1.0 
+I2C pull ups missing.
+
+# V1.1
+no known issues (yet).
+
+
