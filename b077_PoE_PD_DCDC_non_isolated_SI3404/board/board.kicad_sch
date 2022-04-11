@@ -388,15 +388,6 @@
     (path "/cc717b4d-654f-4b39-b9b6-7b0e5e3a49ab"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
-    (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/68d26a76-e032-43aa-bb25-271ad758c36f"
-      (reference "#PWR0103") (unit 1) (value "VSS") (footprint "")
-    )
-    (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/082b71dc-2a2f-40db-bc36-a837731d5ab6"
-      (reference "#PWR0104") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/ab009f61-b199-4849-a39c-f4d01007e6b4"
-      (reference "#PWR0105") (unit 1) (value "VSS") (footprint "")
-    )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/b630646e-8eb8-41ce-8b76-a0d38abcfa4e"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
@@ -429,6 +420,9 @@
     )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/a2f28332-ba58-4236-9ac6-cebf5466b58a"
       (reference "C12") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/1263e60e-75db-404d-bbf2-906907b6bfca"
+      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/277aaa48-a622-4a2e-bd10-34674a3cd4f4"
       (reference "D3") (unit 1) (value "PDS3100") (footprint "Diode_SMD:D_PowerDI-5")
@@ -476,10 +470,10 @@
       (reference "R9") (unit 1) (value "143k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/a00d687c-be70-4f1c-8302-2dfcd4082526"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP1") (unit 1) (value "GND2_OUT") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/bfc65580-ac97-4472-8c25-735a5ff6ac18"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP2") (unit 1) (value "VT15") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/bd58ad52-36c7-460d-b58d-1e0ca17757a0/5a6d4c5b-4a21-4c12-8820-8b8a567bb820"
       (reference "U1") (unit 1) (value "Si3404") (footprint "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias")
