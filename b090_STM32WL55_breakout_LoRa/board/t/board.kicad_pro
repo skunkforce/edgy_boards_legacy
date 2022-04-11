@@ -57,7 +57,6 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -100,27 +99,26 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.13,
-        "min_copper_edge_clearance": 0.024999999999999998,
-        "min_hole_clearance": 0.19999999999999998,
+        "min_clearance": 0.09,
+        "min_copper_edge_clearance": 0.01,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.13,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
+        0.09,
         0.13,
         0.2,
         0.4,
@@ -358,7 +356,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.13,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -368,9 +366,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.09,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],
@@ -402,9 +400,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.08
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -430,20 +428,20 @@
   },
   "sheets": [
     [
-      "c0515cd2-cdaa-467e-8354-0f6eadfa35c9",
+      "d0266427-5c8e-4d3b-a6e8-ef06c33f8ac3",
       ""
     ],
     [
-      "f930fa91-6adf-4e04-b42b-e0932fc06543",
+      "23123e42-75d0-43b0-9621-e0f69246e803",
       "U_STM32_microcontroller_IOs"
     ],
     [
-      "8d1c6119-4f8d-41bb-ac26-14b7b55b90f2",
-      "U_STM32_microcontroller_power"
+      "84ab931c-d159-476f-9952-05f456878955",
+      "U_STM32_microcontroller_RF"
     ],
     [
-      "6640c556-30bc-4fc7-a797-35ec65cf0f77",
-      "U_STM32_microcontroller_RF"
+      "403df5c3-9296-4e57-9eb2-73ccbcd04e94",
+      "U_STM32_microcontroller_power"
     ]
   ],
   "text_variables": {}

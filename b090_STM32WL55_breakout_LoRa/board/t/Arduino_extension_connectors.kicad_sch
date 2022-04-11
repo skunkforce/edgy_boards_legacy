@@ -1,0 +1,126 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ae4a6b60-038a-4698-8a00-08bba05e86ff)
+
+  (paper "A4")
+
+  (title_block
+    (title "Arduino & Morpho extension connectors")
+    (date "Not used")
+    (rev "Not used")
+    (company "STMicroelectronics")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "6"))
+  )
+
+  (symbol_instances
+    (path "/11e14727-c430-4ff1-b760-67e3b32f85e9"
+      (reference "#PWR?") (unit 1) (value "VIN") (footprint "")
+    )
+    (path "/2d564f63-32df-4d09-9043-f9c489a0d2b4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/36b5ea1f-a397-4e83-b9c0-fca867f2ce58"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/44829842-3761-4ddc-a932-565ded2c3104"
+      (reference "#PWR?") (unit 1) (value "3V3") (footprint "")
+    )
+    (path "/4c19d332-c147-49a0-8bdd-ce5f18d87755"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/67c19305-9127-407c-904b-638ea2eb0636"
+      (reference "#PWR?") (unit 1) (value "5V_VIN") (footprint "")
+    )
+    (path "/7550a2ff-4cfd-4300-8cc1-1407b01c45e0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/826f3133-a2c1-4363-9cc3-dedcc3ffc0fe"
+      (reference "#PWR?") (unit 1) (value "VBAT") (footprint "")
+    )
+    (path "/8e890467-c89f-4810-ab59-ad88ec90fe5c"
+      (reference "#PWR?") (unit 1) (value "E5V") (footprint "")
+    )
+    (path "/946b8964-465e-4fe4-adac-47e599719e07"
+      (reference "#PWR?") (unit 1) (value "3V3") (footprint "")
+    )
+    (path "/ab8879a6-ca0c-46ac-83c5-8bb7dec20d15"
+      (reference "#PWR?") (unit 1) (value "5V") (footprint "")
+    )
+    (path "/ad4a0cfd-1d37-466a-b358-2e8c63e846b7"
+      (reference "#PWR?") (unit 1) (value "VDD_MCU") (footprint "")
+    )
+    (path "/b02807b2-68ee-4443-a587-8ddca9c1bd56"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b19b0b2d-e9f9-4888-a4d3-a37641b44081"
+      (reference "#PWR?") (unit 1) (value "AVDD") (footprint "")
+    )
+    (path "/b6a5f6a6-95ea-4926-8edb-f3543e684ded"
+      (reference "#PWR?") (unit 1) (value "IOREF") (footprint "")
+    )
+    (path "/bcebb362-6989-4d1e-a9f9-ea5f4a4b4fb9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cb2084ec-bf02-4b3f-b3b1-2b9f517acb7d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cb668fef-1ce1-4b25-928c-56041fc4a65c"
+      (reference "#PWR?") (unit 1) (value "VDD_MCU") (footprint "")
+    )
+    (path "/d980360c-b360-421a-a044-a46b1936fa56"
+      (reference "#PWR?") (unit 1) (value "IOREF") (footprint "")
+    )
+    (path "/e7566e6b-7871-4148-af7d-8106927a8b77"
+      (reference "#PWR?") (unit 1) (value "5V_USB_CHGR") (footprint "")
+    )
+    (path "/f6082788-13b1-47ca-8c56-ef76795b4741"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a61d1da9-c03f-4c59-8984-8195b47f336b"
+      (reference "C94") (unit 1) (value "Capacitor") (footprint "C0402")
+    )
+    (path "/de20bc4f-8d0e-4b74-8efd-836396ba239b"
+      (reference "C96") (unit 1) (value "Capacitor") (footprint "C0402")
+    )
+    (path "/70b1b11e-4180-4121-969a-4c116273d3f8"
+      (reference "CN5") (unit 1) (value "~") (footprint "CON_SAMTEC_SSW-110-03-X-S")
+    )
+    (path "/baec23bb-f9b7-4a07-9fb3-e5d271b8498c"
+      (reference "CN6") (unit 1) (value "~") (footprint "CON_SAMTEC_SSW-108-03-X-S")
+    )
+    (path "/58fa8ecc-baf9-437b-a607-8a18b6973e48"
+      (reference "CN7") (unit 1) (value "~") (footprint "CON_SAMTEC_TSW-119-09-X-D")
+    )
+    (path "/63954bb9-e564-4468-b185-6cde8e09242b"
+      (reference "CN8") (unit 1) (value "~") (footprint "CON_SAMTEC_SSW-106-03-X-S")
+    )
+    (path "/7bcd28f6-599e-4b4b-887c-2d913c3b8148"
+      (reference "CN9") (unit 1) (value "~") (footprint "CON_SAMTEC_SSW-108-03-X-S")
+    )
+    (path "/3761425d-e2f1-44eb-8ae4-d12af405db8d"
+      (reference "CN10") (unit 1) (value "~") (footprint "CON_SAMTEC_TSW-119-09-X-D")
+    )
+    (path "/6c79a9cd-fb14-4078-8d39-42e5a14de4d2"
+      (reference "R31") (unit 1) (value "~") (footprint "R0603")
+    )
+    (path "/9347f35e-2eff-48e1-ac54-d7627e4e51a1"
+      (reference "SB19") (unit 1) (value "~") (footprint "SOLDER-BRIDGE_R0603-0R")
+    )
+    (path "/23e8f6d6-dc05-413b-bdf4-3972f7aaa452"
+      (reference "SB25") (unit 1) (value "~") (footprint "SOLDER-BRIDGE_R0603-0R")
+    )
+    (path "/0017297a-7de7-4b26-ac36-da2a8ebddace"
+      (reference "SB29") (unit 1) (value "~") (footprint "SOLDER-BRIDGE_R0603-0R")
+    )
+    (path "/8271dfba-3962-4c80-a371-fd4d42efa2fe"
+      (reference "SB30") (unit 1) (value "~") (footprint "SOLDER-BRIDGE_R0603-0R")
+    )
+  )
+)

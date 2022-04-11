@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "Project_overview-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Project_overview-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32_microcontroller_RF-altium-import")(type "KiCad")(uri "${KIPRJMOD}/STM32_microcontroller_RF-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Arduino_extension_connectors-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Arduino_extension_connectors-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "MB1389_Top-altium-import")(type "KiCad")(uri "${KIPRJMOD}/MB1389_Top-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "STLink_V3E_Module-altium-import")(type "KiCad")(uri "${KIPRJMOD}/STLink_V3E_Module-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "STLink_V3E_PWR-altium-import")(type "KiCad")(uri "${KIPRJMOD}/STLink_V3E_PWR-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32_microcontroller_IOs-altium-import")(type "KiCad")(uri "${KIPRJMOD}/STM32_microcontroller_IOs-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32_microcontroller_power-altium-import")(type "KiCad")(uri "${KIPRJMOD}/STM32_microcontroller_power-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.kicad_sym")(options "")(descr ""))
+)
