@@ -78,7 +78,7 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **b078** 100Mbit MAC + PHY with SPI interface W5500
 
-**Status:** ordered.
+**Status:** tested.
 
 ### Bridges
 **b016** 100Mbit usb to ethernet bridge.
