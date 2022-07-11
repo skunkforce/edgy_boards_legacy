@@ -1,0 +1,136 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4675 2500 1375 1700
+U 6083C3A8
+F0 "Controller" 50
+F1 "Controller.sch" 50
+F2 "GND" I L 4675 3975 50 
+F3 "SDA" I R 6050 2925 50 
+F4 "SCL" I R 6050 3025 50 
+F5 "~reset" I L 4675 3150 50 
+F6 "VDD" I L 4675 2725 50 
+F7 "SWDIO" I L 4675 3350 50 
+F8 "SWCLK" I L 4675 3250 50 
+$EndSheet
+$Comp
+L power:GND #PWR0101
+U 1 1 6083D028
+P 4550 4050
+F 0 "#PWR0101" H 4550 3800 50  0001 C CNN
+F 1 "GND" H 4555 3877 50  0000 C CNN
+F 2 "" H 4550 4050 50  0001 C CNN
+F 3 "" H 4550 4050 50  0001 C CNN
+	1    4550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4050 4550 3975
+Wire Wire Line
+	4550 3975 4675 3975
+$Comp
+L put_on_edge:DebugEdge_02x05 J1
+U 1 1 60838655
+P 2900 3250
+F 0 "J1" H 3138 2699 50  0000 C CNN
+F 1 "DebugEdge_02x05" H 3138 2790 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 2900 3650 50  0001 C CNN
+F 3 "" H 2900 3650 50  0001 C CNN
+	1    2900 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L put_on_edge:001_I2C J2
+U 1 1 6083902B
+P 7200 3225
+F 0 "J2" H 7528 3238 50  0000 L CNN
+F 1 "001_I2C" H 7528 3147 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 7500 3875 50  0001 C CNN
+F 3 "" H 7500 3875 50  0001 C CNN
+	1    7200 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60841520
+P 4475 2575
+F 0 "#PWR0102" H 4475 2425 50  0001 C CNN
+F 1 "+3.3V" H 4490 2748 50  0000 C CNN
+F 2 "" H 4475 2575 50  0001 C CNN
+F 3 "" H 4475 2575 50  0001 C CNN
+	1    4475 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 60841C8F
+P 2900 2900
+F 0 "#PWR0103" H 2900 2750 50  0001 C CNN
+F 1 "+3.3V" H 2915 3073 50  0000 C CNN
+F 2 "" H 2900 2900 50  0001 C CNN
+F 3 "" H 2900 2900 50  0001 C CNN
+	1    2900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 60842188
+P 6625 2650
+F 0 "#PWR0104" H 6625 2500 50  0001 C CNN
+F 1 "+3.3V" H 6640 2823 50  0000 C CNN
+F 2 "" H 6625 2650 50  0001 C CNN
+F 3 "" H 6625 2650 50  0001 C CNN
+	1    6625 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 2650 6625 3325
+Wire Wire Line
+	6625 3325 6750 3325
+Wire Wire Line
+	4475 2575 4475 2725
+Wire Wire Line
+	4475 2725 4675 2725
+Wire Wire Line
+	4675 3150 3650 3150
+Wire Wire Line
+	3650 3250 4675 3250
+Wire Wire Line
+	4675 3350 3650 3350
+Wire Wire Line
+	6050 2925 6750 2925
+Wire Wire Line
+	6750 3025 6050 3025
+NoConn ~ 6750 3125
+NoConn ~ 6750 3225
+NoConn ~ 6750 3425
+NoConn ~ 2150 3450
+NoConn ~ 2150 3350
+NoConn ~ 2150 3250
+NoConn ~ 2150 3150
+NoConn ~ 2150 3050
+$Comp
+L power:GND #PWR0105
+U 1 1 608434A7
+P 2900 3600
+F 0 "#PWR0105" H 2900 3350 50  0001 C CNN
+F 1 "GND" H 2905 3427 50  0000 C CNN
+F 2 "" H 2900 3600 50  0001 C CNN
+F 3 "" H 2900 3600 50  0001 C CNN
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

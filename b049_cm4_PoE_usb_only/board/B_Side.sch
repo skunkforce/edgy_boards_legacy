@@ -1,0 +1,269 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Auto-Intern:piCM4_B U2
+U 1 1 5FA405D5
+P 2725 3675
+F 0 "U2" H 2675 6390 50  0000 C CNN
+F 1 "piCM4_B" H 2675 6299 50  0000 C CNN
+F 2 "AI-footprints:HRS_DF40C-100DS-0.4V(51)" H 2675 4375 50  0001 C CNN
+F 3 "" H 2675 4375 50  0001 C CNN
+	1    2725 3675
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1875 1375
+NoConn ~ 1875 1475
+Wire Wire Line
+	1875 1575 1800 1575
+Wire Wire Line
+	1800 1575 1800 1875
+Wire Wire Line
+	1800 1875 1875 1875
+Wire Wire Line
+	1875 2175 1800 2175
+Wire Wire Line
+	1800 2175 1800 1875
+Connection ~ 1800 1875
+Wire Wire Line
+	1875 2475 1800 2475
+Wire Wire Line
+	1800 2475 1800 2175
+Connection ~ 1800 2175
+Wire Wire Line
+	1875 2775 1800 2775
+Wire Wire Line
+	1800 2775 1800 2475
+Connection ~ 1800 2475
+Wire Wire Line
+	1875 3075 1800 3075
+Wire Wire Line
+	1800 3075 1800 2775
+Connection ~ 1800 2775
+Wire Wire Line
+	1875 3375 1800 3375
+Wire Wire Line
+	1800 3375 1800 3075
+Connection ~ 1800 3075
+Wire Wire Line
+	1875 3675 1800 3675
+Wire Wire Line
+	1800 3675 1800 3375
+Connection ~ 1800 3375
+Wire Wire Line
+	1875 3975 1800 3975
+Wire Wire Line
+	1800 3975 1800 3675
+Connection ~ 1800 3675
+Wire Wire Line
+	1875 4275 1800 4275
+Wire Wire Line
+	1800 4275 1800 3975
+Connection ~ 1800 3975
+Wire Wire Line
+	1875 4575 1800 4575
+Wire Wire Line
+	1800 4575 1800 4275
+Connection ~ 1800 4275
+Wire Wire Line
+	1875 4875 1800 4875
+Wire Wire Line
+	1800 4875 1800 4575
+Connection ~ 1800 4575
+Wire Wire Line
+	1875 5175 1800 5175
+Wire Wire Line
+	1800 5175 1800 4875
+Connection ~ 1800 4875
+Wire Wire Line
+	1875 5475 1800 5475
+Wire Wire Line
+	1800 5475 1800 5175
+Connection ~ 1800 5175
+Wire Wire Line
+	1875 5775 1800 5775
+Wire Wire Line
+	1800 5775 1800 5475
+Connection ~ 1800 5475
+Wire Wire Line
+	1875 6075 1800 6075
+Wire Wire Line
+	1800 6075 1800 5775
+Connection ~ 1800 5775
+Wire Wire Line
+	3475 6075 3525 6075
+Wire Wire Line
+	3525 6075 3525 5775
+Wire Wire Line
+	3525 5775 3475 5775
+Wire Wire Line
+	3525 5775 3525 5475
+Wire Wire Line
+	3525 5475 3475 5475
+Connection ~ 3525 5775
+Wire Wire Line
+	3525 5475 3525 5175
+Wire Wire Line
+	3525 5175 3475 5175
+Connection ~ 3525 5475
+Wire Wire Line
+	3525 5175 3525 4875
+Wire Wire Line
+	3525 4875 3475 4875
+Connection ~ 3525 5175
+Wire Wire Line
+	3525 4875 3525 4575
+Wire Wire Line
+	3525 4575 3475 4575
+Connection ~ 3525 4875
+Wire Wire Line
+	3525 4575 3525 4275
+Wire Wire Line
+	3525 4275 3475 4275
+Connection ~ 3525 4575
+Wire Wire Line
+	3525 4275 3525 3975
+Wire Wire Line
+	3525 3975 3475 3975
+Connection ~ 3525 4275
+Wire Wire Line
+	3525 3975 3525 3075
+Wire Wire Line
+	3525 3075 3475 3075
+Connection ~ 3525 3975
+Wire Wire Line
+	3525 3075 3525 2775
+Wire Wire Line
+	3525 2775 3475 2775
+Connection ~ 3525 3075
+Wire Wire Line
+	3525 2775 3525 2475
+Wire Wire Line
+	3525 2475 3475 2475
+Connection ~ 3525 2775
+Wire Wire Line
+	3525 2475 3525 2175
+Wire Wire Line
+	3525 2175 3475 2175
+Connection ~ 3525 2475
+Wire Wire Line
+	3525 2175 3525 1875
+Wire Wire Line
+	3525 1875 3475 1875
+Connection ~ 3525 2175
+Wire Wire Line
+	3525 1875 3525 1575
+Wire Wire Line
+	3525 1575 3475 1575
+Connection ~ 3525 1875
+$Comp
+L power:GND #PWR0114
+U 1 1 5FA4C7E7
+P 1800 6325
+F 0 "#PWR0114" H 1800 6075 50  0001 C CNN
+F 1 "GND" H 1805 6152 50  0000 C CNN
+F 2 "" H 1800 6325 50  0001 C CNN
+F 3 "" H 1800 6325 50  0001 C CNN
+	1    1800 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6325 1800 6075
+Connection ~ 1800 6075
+$Comp
+L power:GND #PWR0115
+U 1 1 5FA4DB4A
+P 3525 6325
+F 0 "#PWR0115" H 3525 6075 50  0001 C CNN
+F 1 "GND" H 3530 6152 50  0000 C CNN
+F 2 "" H 3525 6325 50  0001 C CNN
+F 3 "" H 3525 6325 50  0001 C CNN
+	1    3525 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 6325 3525 6075
+Connection ~ 3525 6075
+NoConn ~ 1875 1275
+NoConn ~ 1875 1675
+NoConn ~ 1875 1775
+NoConn ~ 1875 1975
+NoConn ~ 1875 2075
+NoConn ~ 1875 2275
+NoConn ~ 1875 2375
+NoConn ~ 1875 2575
+NoConn ~ 1875 2675
+NoConn ~ 1875 2875
+NoConn ~ 1875 2975
+NoConn ~ 1875 3175
+NoConn ~ 1875 3275
+NoConn ~ 1875 3475
+NoConn ~ 1875 3575
+NoConn ~ 1875 3775
+NoConn ~ 1875 3875
+NoConn ~ 1875 4075
+NoConn ~ 1875 4175
+NoConn ~ 1875 4375
+NoConn ~ 1875 4475
+NoConn ~ 1875 4675
+NoConn ~ 1875 4775
+NoConn ~ 1875 4975
+NoConn ~ 1875 5075
+NoConn ~ 1875 5275
+NoConn ~ 1875 5375
+NoConn ~ 1875 5575
+NoConn ~ 1875 5675
+NoConn ~ 1875 5875
+NoConn ~ 1875 5975
+NoConn ~ 1875 6175
+NoConn ~ 3475 6175
+NoConn ~ 3475 5975
+NoConn ~ 3475 5875
+NoConn ~ 3475 5675
+NoConn ~ 3475 5575
+NoConn ~ 3475 5375
+NoConn ~ 3475 5275
+NoConn ~ 3475 5075
+NoConn ~ 3475 4975
+NoConn ~ 3475 4775
+NoConn ~ 3475 4675
+NoConn ~ 3475 4475
+NoConn ~ 3475 4375
+NoConn ~ 3475 4175
+NoConn ~ 3475 4075
+NoConn ~ 3475 3875
+NoConn ~ 3475 3775
+NoConn ~ 3475 3675
+NoConn ~ 3475 3575
+NoConn ~ 3475 3475
+NoConn ~ 3475 3375
+NoConn ~ 3475 3275
+NoConn ~ 3475 3175
+NoConn ~ 3475 2975
+NoConn ~ 3475 2875
+NoConn ~ 3475 2675
+NoConn ~ 3475 2575
+NoConn ~ 3475 2375
+NoConn ~ 3475 2275
+NoConn ~ 3475 2075
+NoConn ~ 3475 1975
+NoConn ~ 3475 1675
+Text HLabel 3475 1275 2    50   Input ~ 0
+USBOTG_ID
+Text HLabel 3475 1375 2    50   Input ~ 0
+USB-
+Text HLabel 3475 1475 2    50   Input ~ 0
+USB+
+$EndSCHEMATC

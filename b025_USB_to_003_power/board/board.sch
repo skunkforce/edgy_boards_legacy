@@ -1,0 +1,175 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L put_on_edge:003_power J2
+U 1 1 6043B711
+P 9375 3200
+F 0 "J2" H 9703 3213 50  0000 L CNN
+F 1 "003_power_2x5" H 9703 3122 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 9675 3850 50  0001 C CNN
+F 3 "" H 9675 3850 50  0001 C CNN
+	1    9375 3200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5525 4175 750  925 
+U 6043D1E1
+F0 "3.3v" 50
+F1 "3.3v.sch" 50
+F2 "out" I R 6275 4900 50 
+F3 "in" I L 5525 4900 50 
+$EndSheet
+$Sheet
+S 5550 2825 725  975 
+U 6043D363
+F0 "2.5v" 50
+F1 "2.5v.sch" 50
+F2 "out" I R 6275 3650 50 
+F3 "in" I L 5550 3650 50 
+$EndSheet
+$Sheet
+S 5550 1650 725  925 
+U 6043D3FA
+F0 "1.8v" 50
+F1 "1.8v.sch" 50
+F2 "out" I R 6275 2400 50 
+F3 "in" I L 5550 2400 50 
+$EndSheet
+$Sheet
+S 5550 575  725  800 
+U 6043D498
+F0 "1.2v" 50
+F1 "1.2v.sch" 50
+F2 "out" I R 6275 1150 50 
+F3 "in" I L 5550 1150 50 
+$EndSheet
+Wire Wire Line
+	7325 4900 6275 4900
+Wire Wire Line
+	7050 3200 7050 3650
+Wire Wire Line
+	7050 3650 6275 3650
+Wire Wire Line
+	7050 3200 8925 3200
+Wire Wire Line
+	7050 3100 7050 2400
+Wire Wire Line
+	7050 2400 6275 2400
+Wire Wire Line
+	6275 1150 7325 1150
+Wire Wire Line
+	7325 1150 7325 3000
+Wire Wire Line
+	7325 3000 8925 3000
+Wire Wire Line
+	7050 3100 8925 3100
+Wire Wire Line
+	5150 4000 5150 3650
+Wire Wire Line
+	5150 2625 4325 2625
+Wire Wire Line
+	5550 1150 5150 1150
+Wire Wire Line
+	5150 1150 5150 2400
+Connection ~ 5150 2625
+Wire Wire Line
+	5550 2400 5150 2400
+Connection ~ 5150 2400
+Wire Wire Line
+	5150 2400 5150 2625
+Wire Wire Line
+	5550 3650 5150 3650
+Connection ~ 5150 3650
+Wire Wire Line
+	5150 3650 5150 2625
+Wire Wire Line
+	5150 4000 5150 4900
+Wire Wire Line
+	5150 4900 5525 4900
+Connection ~ 5150 4000
+$Comp
+L power:GND #PWR0101
+U 1 1 6044056A
+P 3725 3475
+F 0 "#PWR0101" H 3725 3225 50  0001 C CNN
+F 1 "GND" H 3730 3302 50  0000 C CNN
+F 2 "" H 3725 3475 50  0001 C CNN
+F 3 "" H 3725 3475 50  0001 C CNN
+	1    3725 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 6044C4B3
+P 9375 3800
+F 0 "#PWR0111" H 9375 3550 50  0001 C CNN
+F 1 "GND" H 9380 3627 50  0000 C CNN
+F 2 "" H 9375 3800 50  0001 C CNN
+F 3 "" H 9375 3800 50  0001 C CNN
+	1    9375 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9175 3750 9175 3775
+Wire Wire Line
+	9175 3775 9275 3775
+Wire Wire Line
+	9575 3775 9575 3750
+Wire Wire Line
+	9475 3750 9475 3775
+Connection ~ 9475 3775
+Wire Wire Line
+	9475 3775 9575 3775
+Wire Wire Line
+	9375 3750 9375 3775
+Connection ~ 9375 3775
+Wire Wire Line
+	9375 3775 9475 3775
+Wire Wire Line
+	9375 3775 9375 3800
+Wire Wire Line
+	9275 3750 9275 3775
+Connection ~ 9275 3775
+Wire Wire Line
+	9275 3775 9375 3775
+$Comp
+L put_on_edge:008_USB J1
+U 1 1 60B506DC
+P 3875 2925
+F 0 "J1" H 3792 3590 50  0000 C CNN
+F 1 "008_USB" H 3792 3499 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 4175 3575 50  0001 C CNN
+F 3 "" H 4175 3575 50  0001 C CNN
+	1    3875 2925
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4325 3225
+NoConn ~ 4325 3125
+NoConn ~ 4325 3025
+NoConn ~ 4325 2925
+NoConn ~ 4325 2825
+NoConn ~ 4325 2725
+Wire Wire Line
+	7325 3300 8925 3300
+Wire Wire Line
+	7325 3300 7325 4900
+Wire Wire Line
+	8925 3400 7475 3400
+Wire Wire Line
+	7475 3400 7475 4000
+Wire Wire Line
+	5150 4000 7475 4000
+$EndSCHEMATC

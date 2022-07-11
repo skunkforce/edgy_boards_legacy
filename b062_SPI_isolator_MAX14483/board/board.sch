@@ -1,0 +1,122 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4675 2500 1375 1700
+U 6083C3A8
+F0 "isolator" 50
+F1 "isolator.sch" 50
+F2 "VDD1" I L 4675 3450 50 
+F3 "GND1" I L 4675 3900 50 
+F4 "GND2" I R 6050 3875 50 
+F5 "VDD2" I R 6050 3425 50 
+F6 "ISCLK" I L 4675 2950 50 
+F7 "ISDI" I L 4675 2750 50 
+F8 "ICS" I L 4675 3150 50 
+F9 "IAUX" I L 4675 3350 50 
+F10 "OSDO" I L 4675 2850 50 
+F11 "OInt" I L 4675 3050 50 
+F12 "IInt" I R 6050 3025 50 
+F13 "ISDO" I R 6050 2825 50 
+F14 "OAUX" I R 6050 3325 50 
+F15 "OSDI" I R 6050 2725 50 
+F16 "OSCLK" I R 6050 2925 50 
+F17 "OCS" I R 6050 3125 50 
+$EndSheet
+$Comp
+L put_on_edge:002_SPI J1
+U 1 1 60A193FC
+P 3200 3100
+F 0 "J1" H 3117 3765 50  0000 C CNN
+F 1 "001_I2C" H 3117 3674 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_device" H 3500 3750 50  0001 C CNN
+F 3 "" H 3500 3750 50  0001 C CNN
+	1    3200 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:002_SPI J2
+U 1 1 60A19C16
+P 7275 3075
+F 0 "J2" H 7603 3088 50  0000 L CNN
+F 1 "001_I2C" H 7603 2997 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_host" H 7575 3725 50  0001 C CNN
+F 3 "" H 7575 3725 50  0001 C CNN
+	1    7275 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60A1A962
+P 4100 3450
+F 0 "R2" V 3904 3450 50  0000 C CNN
+F 1 "0R" V 3995 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4100 3450 50  0001 C CNN
+F 3 "~" H 4100 3450 50  0001 C CNN
+	1    4100 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3450 3650 3450
+Wire Wire Line
+	6525 3425 6825 3425
+NoConn ~ 6825 3225
+NoConn ~ 6825 3525
+Wire Wire Line
+	4200 3450 4675 3450
+Wire Wire Line
+	3650 3150 4675 3150
+Wire Wire Line
+	3650 3050 4675 3050
+Wire Wire Line
+	6050 3125 6825 3125
+Wire Wire Line
+	6050 3025 6825 3025
+Wire Wire Line
+	6050 3425 6325 3425
+$Comp
+L Device:R_Small R5
+U 1 1 60A1BC1F
+P 6425 3425
+F 0 "R5" V 6229 3425 50  0000 C CNN
+F 1 "0R" V 6320 3425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6425 3425 50  0001 C CNN
+F 3 "~" H 6425 3425 50  0001 C CNN
+	1    6425 3425
+	0    1    1    0   
+$EndComp
+NoConn ~ 3650 3250
+Wire Wire Line
+	3650 2750 4675 2750
+Wire Wire Line
+	3650 2850 4675 2850
+Wire Wire Line
+	3650 2950 4675 2950
+Wire Wire Line
+	4675 3350 3650 3350
+NoConn ~ 3650 3550
+Wire Wire Line
+	3200 3900 4675 3900
+Wire Wire Line
+	6050 2925 6825 2925
+Wire Wire Line
+	6050 2825 6825 2825
+Wire Wire Line
+	6050 2725 6825 2725
+Wire Wire Line
+	6050 3325 6825 3325
+Wire Wire Line
+	6050 3875 7275 3875
+$EndSCHEMATC

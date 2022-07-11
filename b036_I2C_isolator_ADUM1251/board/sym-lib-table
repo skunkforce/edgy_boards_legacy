@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name local)(type Legacy)(uri ${OSF_LIB_DIR}/things_on_edge/b033_PoE_PD_DCDC_MP8007/board/lib/local.lib)(options "")(descr ""))
+)

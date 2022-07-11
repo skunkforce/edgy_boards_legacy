@@ -1,0 +1,153 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L put_on_edge:005_1wire J1
+U 1 1 60A80E5F
+P 7000 3100
+F 0 "J1" H 6917 3765 50  0000 C CNN
+F 1 "005_1wire" H 6917 3674 50  0000 C CNN
+F 2 "on_edge:on_edge_2x05_host" H 7300 3750 50  0001 C CNN
+F 3 "" H 7300 3750 50  0001 C CNN
+	1    7000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 60A83CEC
+P 6475 3125
+F 0 "#PWR0101" H 6475 2975 50  0001 C CNN
+F 1 "+3.3V" H 6490 3298 50  0000 C CNN
+F 2 "" H 6475 3125 50  0001 C CNN
+F 3 "" H 6475 3125 50  0001 C CNN
+	1    6475 3125
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3200 6475 3200
+Wire Wire Line
+	6475 3200 6475 3125
+$Comp
+L power:GND #PWR0102
+U 1 1 60A847FE
+P 6950 3650
+F 0 "#PWR0102" H 6950 3400 50  0001 C CNN
+F 1 "GND" H 6955 3477 50  0000 C CNN
+F 2 "" H 6950 3650 50  0001 C CNN
+F 3 "" H 6950 3650 50  0001 C CNN
+	1    6950 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:001_I2C J2
+U 1 1 60A85358
+P 2675 3000
+F 0 "J2" H 3003 3013 50  0000 L CNN
+F 1 "001_I2C" H 3003 2922 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_device" H 2975 3650 50  0001 C CNN
+F 3 "" H 2975 3650 50  0001 C CNN
+	1    2675 3000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3125 3000
+NoConn ~ 3125 2900
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 60A86629
+P 3300 3075
+F 0 "#PWR0103" H 3300 2925 50  0001 C CNN
+F 1 "+3.3V" H 3315 3248 50  0000 C CNN
+F 2 "" H 3300 3075 50  0001 C CNN
+F 3 "" H 3300 3075 50  0001 C CNN
+	1    3300 3075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3075 3300 3100
+Wire Wire Line
+	3300 3100 3125 3100
+$Comp
+L power:+5V #PWR0104
+U 1 1 60A8725D
+P 3500 3075
+F 0 "#PWR0104" H 3500 2925 50  0001 C CNN
+F 1 "+5V" H 3515 3248 50  0000 C CNN
+F 2 "" H 3500 3075 50  0001 C CNN
+F 3 "" H 3500 3075 50  0001 C CNN
+	1    3500 3075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3075 3500 3200
+Wire Wire Line
+	3500 3200 3125 3200
+$Comp
+L power:+5V #PWR0105
+U 1 1 60A878F9
+P 6275 3125
+F 0 "#PWR0105" H 6275 2975 50  0001 C CNN
+F 1 "+5V" H 6290 3298 50  0000 C CNN
+F 2 "" H 6275 3125 50  0001 C CNN
+F 3 "" H 6275 3125 50  0001 C CNN
+	1    6275 3125
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3300 6275 3300
+Wire Wire Line
+	6275 3300 6275 3125
+$Sheet
+S 4200 2475 1125 1125
+U 60A8884F
+F0 "bridge" 50
+F1 "bridge.sch" 50
+F2 "SDA" I L 4200 2700 50 
+F3 "SCL" I L 4200 2800 50 
+F4 "1wire" I R 5325 2800 50 
+F5 "GND" I R 5325 3450 50 
+F6 "3.3V" I R 5325 3200 50 
+F7 "5V" I L 4200 3200 50 
+$EndSheet
+Wire Wire Line
+	6550 2800 5325 2800
+Wire Wire Line
+	4200 2700 3125 2700
+Wire Wire Line
+	4200 2800 3125 2800
+$Comp
+L power:GND #PWR0106
+U 1 1 60A8EB0D
+P 2725 3550
+F 0 "#PWR0106" H 2725 3300 50  0001 C CNN
+F 1 "GND" H 2730 3377 50  0000 C CNN
+F 2 "" H 2725 3550 50  0001 C CNN
+F 3 "" H 2725 3550 50  0001 C CNN
+	1    2725 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 3200 5325 3200
+Connection ~ 6475 3200
+Wire Wire Line
+	5325 3450 6050 3450
+Wire Wire Line
+	6050 3450 6050 3650
+Wire Wire Line
+	6050 3650 6950 3650
+Connection ~ 6950 3650
+Wire Wire Line
+	3500 3200 4200 3200
+Connection ~ 3500 3200
+$EndSCHEMATC

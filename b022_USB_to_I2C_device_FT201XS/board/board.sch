@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L put_on_edge:008_USB_2x2 J1
+U 1 1 6036E1AF
+P 2800 3000
+F 0 "J1" H 2717 3665 50  0000 C CNN
+F 1 "008_USB_2x2" H 2717 3574 50  0000 C CNN
+F 2 "on_edge:on_edge_2x02_device" H 3100 3650 50  0001 C CNN
+F 3 "" H 3100 3650 50  0001 C CNN
+	1    2800 3000
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 3750 2500 2250 1750
+U 603703E4
+F0 "Sheet603703E3" 50
+F1 "bridge.sch" 50
+F2 "DP" I L 3750 3000 50 
+F3 "DM" I L 3750 3100 50 
+F4 "SCL" I R 6000 2750 50 
+F5 "SDA" I R 6000 2850 50 
+F6 "CS" I R 6000 2650 50 
+$EndSheet
+Wire Wire Line
+	3250 3000 3750 3000
+Wire Wire Line
+	3250 3100 3750 3100
+$Comp
+L power:GND #PWR0101
+U 1 1 60371938
+P 2850 3550
+F 0 "#PWR0101" H 2850 3300 50  0001 C CNN
+F 1 "GND" H 2855 3377 50  0000 C CNN
+F 2 "" H 2850 3550 50  0001 C CNN
+F 3 "" H 2850 3550 50  0001 C CNN
+	1    2850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:001_I2C_2x5 J2
+U 1 1 603BF1BF
+P 7050 2850
+F 0 "J2" H 7378 2863 50  0000 L CNN
+F 1 "001_I2C_2x5" H 7378 2772 50  0000 L CNN
+F 2 "on_edge:on_edge_2x05_device" H 7350 3500 50  0001 C CNN
+F 3 "" H 7350 3500 50  0001 C CNN
+	1    7050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2750 6000 2750
+Wire Wire Line
+	6000 2850 6600 2850
+$Comp
+L power:GND #PWR0120
+U 1 1 603C044F
+P 7000 3400
+F 0 "#PWR0120" H 7000 3150 50  0001 C CNN
+F 1 "GND" H 7005 3227 50  0000 C CNN
+F 2 "" H 7000 3400 50  0001 C CNN
+F 3 "" H 7000 3400 50  0001 C CNN
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 603C0EED
+P 3450 2350
+AR Path="/603703E4/603C0EED" Ref="#PWR?"  Part="1" 
+AR Path="/603C0EED" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 3450 2200 50  0001 C CNN
+F 1 "+5V" H 3465 2523 50  0000 C CNN
+F 2 "" H 3450 2350 50  0001 C CNN
+F 3 "" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2350 3450 2900
+Wire Wire Line
+	3450 2900 3250 2900
+$Comp
+L power:+5V #PWR?
+U 1 1 603C1501
+P 6225 2225
+AR Path="/603703E4/603C1501" Ref="#PWR?"  Part="1" 
+AR Path="/603C1501" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 6225 2075 50  0001 C CNN
+F 1 "+5V" H 6240 2398 50  0000 C CNN
+F 2 "" H 6225 2225 50  0001 C CNN
+F 3 "" H 6225 2225 50  0001 C CNN
+	1    6225 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 2225 6225 3050
+$Comp
+L power:+3.3V #PWR0123
+U 1 1 603C1A9E
+P 6475 2225
+F 0 "#PWR0123" H 6475 2075 50  0001 C CNN
+F 1 "+3.3V" H 6490 2398 50  0000 C CNN
+F 2 "" H 6475 2225 50  0001 C CNN
+F 3 "" H 6475 2225 50  0001 C CNN
+	1    6475 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 2225 6475 2950
+Wire Wire Line
+	6475 2950 6600 2950
+Wire Wire Line
+	6225 3050 6600 3050
+Wire Wire Line
+	6600 2650 6000 2650
+$EndSCHEMATC
