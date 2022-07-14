@@ -1442,7 +1442,7 @@
   (gr_text "osf.007.v0.2" (at 101.1 46) (layer "F.SilkS") (tstamp 713e0777-58b2-4487-baca-60d0ebed27c3)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "osf.b056.v0.1" (at 95.6 105.2) (layer "F.SilkS") (tstamp a8fb8ee0-623f-4870-a716-ecc88f37ef9a)
+  (gr_text "osf.b056.v0.2" (at 95.6 105.2) (layer "F.SilkS") (tstamp a8fb8ee0-623f-4870-a716-ecc88f37ef9a)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "osf.007.v0.2" (at 101.1 89.5) (layer "F.SilkS") (tstamp ae158d42-76cc-4911-a621-4cc28931c98b)
