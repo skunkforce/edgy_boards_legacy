@@ -360,6 +360,10 @@ Output current 200ma.
 
 **status:** review needed.
 
+**b092** TMCS110.
+
+**status:** initial.
+
 ### temperature
 
 **b083** 4x PT100 to I2C using MCP3428.
