@@ -1,0 +1,232 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small R?
+U 1 1 603F8E17
+P 4700 4050
+AR Path="/603983B3/60398448/603F8E17" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984AB/603F8E17" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984C2/603F8E17" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D0C8/603F8E17" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D214/603F8E17" Ref="R?"  Part="1" 
+AR Path="/603983B3/603D91B2/603F8E17" Ref="R1"  Part="1" 
+AR Path="/603983B3/603FC0A5/603F8E17" Ref="R7"  Part="1" 
+AR Path="/603983B3/603FC2A4/603F8E17" Ref="R13"  Part="1" 
+AR Path="/6048219A/603F8E17" Ref="R?"  Part="1" 
+AR Path="/604A0B7F/604B08A4/603F8E17" Ref="R1"  Part="1" 
+F 0 "R1" V 4500 4050 50  0000 C CNN
+F 1 "1k" V 4600 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4700 4050 50  0001 C CNN
+F 3 "~" H 4700 4050 50  0001 C CNN
+	1    4700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LMV601 U7
+U 1 1 60442E27
+P 6500 4350
+AR Path="/603983B3/603D91B2/60442E27" Ref="U7"  Part="1" 
+AR Path="/603983B3/603FC0A5/60442E27" Ref="U8"  Part="1" 
+AR Path="/603983B3/603FC2A4/60442E27" Ref="U9"  Part="1" 
+AR Path="/6048219A/60442E27" Ref="U?"  Part="1" 
+AR Path="/604A0B7F/604B08A4/60442E27" Ref="U3"  Part="1" 
+F 0 "U3" H 6844 4396 50  0000 L CNN
+F 1 "LMV601" H 6844 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6500 4350 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv601.pdf" H 6500 4000 50  0001 L CNN
+	1    6500 4350
+	1    0    0    -1  
+$EndComp
+Text HLabel 4500 3900 0    50   Input ~ 0
+VDD_2.7-5V
+Wire Wire Line
+	6200 4450 5950 4450
+Wire Wire Line
+	5950 4450 5950 5050
+Wire Wire Line
+	5950 5050 6400 5050
+Wire Wire Line
+	7250 5050 7250 4350
+Wire Wire Line
+	7250 4350 6800 4350
+$Comp
+L Device:R_Small R?
+U 1 1 6044794C
+P 6500 5050
+AR Path="/603983B3/60398448/6044794C" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984AB/6044794C" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984C2/6044794C" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D0C8/6044794C" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D214/6044794C" Ref="R?"  Part="1" 
+AR Path="/603983B3/603D91B2/6044794C" Ref="R19"  Part="1" 
+AR Path="/603983B3/603FC0A5/6044794C" Ref="R35"  Part="1" 
+AR Path="/603983B3/603FC2A4/6044794C" Ref="R36"  Part="1" 
+AR Path="/6048219A/6044794C" Ref="R?"  Part="1" 
+AR Path="/604A0B7F/604B08A4/6044794C" Ref="R4"  Part="1" 
+F 0 "R4" V 6300 5050 50  0000 C CNN
+F 1 "4.7k" V 6400 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6500 5050 50  0001 C CNN
+F 3 "~" H 6500 5050 50  0001 C CNN
+	1    6500 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 5050 7250 5050
+Wire Wire Line
+	6400 3900 6400 4050
+Text Label 5800 4250 0    50   ~ 0
+ref_1.xxV
+Wire Wire Line
+	6400 4650 6400 4750
+Wire Wire Line
+	6400 4750 6300 4750
+Text HLabel 6300 4750 0    50   Input ~ 0
+GND
+Text HLabel 4500 5050 0    50   Input ~ 0
+GND
+Connection ~ 7250 4350
+$Comp
+L 2021_bt5_headtracker_symbols:LM4041-N U2
+U 1 1 604AAE71
+P 5300 4700
+F 0 "U2" V 5346 4612 50  0000 R CNN
+F 1 "LM4041-N" V 5100 4800 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 4500 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4041-n.pdf" H 5400 4850 50  0001 C CIN
+	1    5300 4700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 604C81A2
+P 5550 4500
+AR Path="/603983B3/60398448/604C81A2" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984AB/604C81A2" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984C2/604C81A2" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D0C8/604C81A2" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D214/604C81A2" Ref="R?"  Part="1" 
+AR Path="/603983B3/603D91B2/604C81A2" Ref="R7"  Part="1" 
+AR Path="/603983B3/603FC0A5/604C81A2" Ref="R?"  Part="1" 
+AR Path="/603983B3/603FC2A4/604C81A2" Ref="R?"  Part="1" 
+AR Path="/6048219A/604C81A2" Ref="R?"  Part="1" 
+AR Path="/604A0B7F/604B08A4/604C81A2" Ref="R2"  Part="1" 
+F 0 "R2" V 5350 4500 50  0000 C CNN
+F 1 "1M" V 5450 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5550 4500 50  0001 C CNN
+F 3 "~" H 5550 4500 50  0001 C CNN
+	1    5550 4500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5550 4250
+Wire Wire Line
+	5550 4250 5300 4250
+$Comp
+L Device:R_Small R?
+U 1 1 604CE174
+P 5550 4900
+AR Path="/603983B3/60398448/604CE174" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984AB/604CE174" Ref="R?"  Part="1" 
+AR Path="/603983B3/603984C2/604CE174" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D0C8/604CE174" Ref="R?"  Part="1" 
+AR Path="/603983B3/6039D214/604CE174" Ref="R?"  Part="1" 
+AR Path="/603983B3/603D91B2/604CE174" Ref="R8"  Part="1" 
+AR Path="/603983B3/603FC0A5/604CE174" Ref="R?"  Part="1" 
+AR Path="/603983B3/603FC2A4/604CE174" Ref="R?"  Part="1" 
+AR Path="/6048219A/604CE174" Ref="R?"  Part="1" 
+AR Path="/604A0B7F/604B08A4/604CE174" Ref="R3"  Part="1" 
+F 0 "R3" V 5350 4900 50  0000 C CNN
+F 1 "1k" V 5450 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5550 4900 50  0001 C CNN
+F 3 "~" H 5550 4900 50  0001 C CNN
+	1    5550 4900
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5300 4250
+Wire Wire Line
+	5550 5000 5550 5050
+Wire Wire Line
+	5550 5050 5300 5050
+Wire Wire Line
+	5550 4250 6200 4250
+Text HLabel 6600 4750 2    50   Input ~ 0
+VDD_2.7-5V
+Wire Wire Line
+	6500 4650 6500 4750
+Wire Wire Line
+	6500 4750 6600 4750
+Wire Wire Line
+	4700 4150 4700 4250
+Wire Wire Line
+	4700 3950 4700 3900
+Wire Wire Line
+	7400 4350 7250 4350
+Text Label 5550 4700 0    50   ~ 0
+ADJ
+$Comp
+L Device:C_Small C?
+U 1 1 6049400C
+P 4700 4700
+AR Path="/603983B3/60398448/6049400C" Ref="C?"  Part="1" 
+AR Path="/603983B3/603984AB/6049400C" Ref="C?"  Part="1" 
+AR Path="/603983B3/603984C2/6049400C" Ref="C?"  Part="1" 
+AR Path="/603983B3/6039D0C8/6049400C" Ref="C?"  Part="1" 
+AR Path="/603983B3/6039D214/6049400C" Ref="C?"  Part="1" 
+AR Path="/603983B3/603D91B2/6049400C" Ref="C3"  Part="1" 
+AR Path="/603983B3/603FC0A5/6049400C" Ref="C?"  Part="1" 
+AR Path="/603983B3/603FC2A4/6049400C" Ref="C?"  Part="1" 
+AR Path="/6048219A/6049400C" Ref="C?"  Part="1" 
+AR Path="/604A0B7F/604B08A4/6049400C" Ref="C3"  Part="1" 
+F 0 "C3" H 4792 4746 50  0000 L CNN
+F 1 "1uF" H 4792 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4700 4700 50  0001 C CNN
+F 3 "~" H 4700 4700 50  0001 C CNN
+	1    4700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4800 4700 5050
+Connection ~ 4700 5050
+Wire Wire Line
+	4700 5050 4500 5050
+Text HLabel 7400 4350 2    50   Input ~ 0
+VREF_OUT
+Wire Wire Line
+	4700 4250 5300 4250
+Wire Wire Line
+	4500 3900 4700 3900
+Wire Wire Line
+	4700 4250 4700 4600
+Wire Wire Line
+	4700 5050 5300 5050
+Connection ~ 5300 5050
+Wire Wire Line
+	5300 4850 5300 5050
+Wire Wire Line
+	5300 4250 5300 4550
+Wire Wire Line
+	5550 4250 5550 4400
+Wire Wire Line
+	5550 4600 5550 4700
+Wire Wire Line
+	5500 4700 5550 4700
+Connection ~ 5550 4700
+Wire Wire Line
+	5550 4700 5550 4800
+Connection ~ 4700 4250
+Connection ~ 4700 3900
+Wire Wire Line
+	4700 3900 6400 3900
+$EndSCHEMATC
