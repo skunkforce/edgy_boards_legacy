@@ -112,7 +112,11 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **b052** PoE PD with buck DCDC using MP8007
 
-**Status:** ordered.
+**Status:** initial.
+
+**b093** PoE PD with flyback DCDC using MP8007
+
+**Status:** initial.
 
 ## USB
 **b006** 4 port USB hub featuring GL850G.
