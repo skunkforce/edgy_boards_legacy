@@ -405,7 +405,7 @@
     (uuid f1befd22-2af2-489a-becd-f9d065888c33)
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 118.11 86.36 0) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 118.11 86.36 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 10d28480-a1e5-40b4-be73-f3aba78db468)
     (property "Reference" "#FLG0101" (id 0) (at 118.11 84.455 0)
@@ -421,7 +421,7 @@
     (pin "1" (uuid 86fa1e8e-5abb-459c-8f3d-bf9ee1178009))
   )
 
-  (symbol (lib_id "Device:FerriteBead_Small") (at 167.64 121.92 90) (unit 1)
+  (symbol (lib_id "Device:FerriteBead_Small") (at 167.64 121.92 90)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3ba97767-7227-4d80-bded-c383c6672e55)
     (property "Reference" "FB3" (id 0) (at 167.6019 115.57 90))
@@ -436,7 +436,7 @@
     (pin "2" (uuid ae50c62d-c735-4c4c-8053-21f93a46eae8))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 182.88 101.6 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 182.88 101.6 0)
     (in_bom yes) (on_board yes)
     (uuid 3bc7c3d9-8a6b-4759-a705-23002affad28)
     (property "Reference" "C1" (id 0) (at 185.2168 100.4316 0)
@@ -455,7 +455,7 @@
     (pin "2" (uuid 6351b9d4-764a-4762-939a-54e8456fd7fa))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 196.85 101.6 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 196.85 101.6 0)
     (in_bom yes) (on_board yes)
     (uuid 91ec49ae-19b4-4fd7-92bf-d97cdf8322df)
     (property "Reference" "C2" (id 0) (at 199.1868 100.4316 0)
@@ -474,7 +474,7 @@
     (pin "2" (uuid 51425b82-a3d8-4441-bc41-145b04896cc3))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 208.28 101.6 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 208.28 101.6 0)
     (in_bom yes) (on_board yes)
     (uuid ca27fda4-a96a-46a1-ae4e-8211306f64cf)
     (property "Reference" "C3" (id 0) (at 210.6168 100.4316 0)
@@ -493,7 +493,7 @@
     (pin "2" (uuid 708c8ab1-1201-4fd1-b340-ab26178c1210))
   )
 
-  (symbol (lib_id "Auto-Intern:TMCS1100") (at 132.08 102.87 0) (unit 1)
+  (symbol (lib_id "Auto-Intern:TMCS1100") (at 132.08 102.87 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cf04fa26-959c-4685-be3a-b36c7e891145)
     (property "Reference" "U1" (id 0) (at 132.08 90.17 0))
