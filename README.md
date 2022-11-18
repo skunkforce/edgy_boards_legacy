@@ -119,6 +119,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** tested.
 
+**b093** 7 port USB hub featuring USB2517.
+
+**Status:** unfinished.
+
 **b082** 4 port USB hub featuring USB2514B.
 
 **Status:** unfinished.
