@@ -119,7 +119,7 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** tested.
 
-**b093** 7 port USB hub featuring USB2517.
+**b094** 7 port USB hub featuring USB2517.
 
 **Status:** unfinished.
 
@@ -206,6 +206,10 @@ Output current 300ma
 **b085** 4.2V - 18V input 2A buck converter AP6220
 
 **Status:** ordered.
+
+**b093** PoE PD with flyback DCDC using MP8007
+
+**Status:** initial.
 
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
