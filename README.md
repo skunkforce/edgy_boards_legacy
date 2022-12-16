@@ -265,6 +265,16 @@ Output current 200ma.
 **Status:** initial.
 
 ## system on a module
+### standard SOM connector layout
+It is common for boards which connect to a SOM to connect to multiple interfaces. Therefore it is advantagous to standardize the interface connector layout of SOMs such that connecting boards can connect at multiple points. 
+
+Using the standard 16mm distance between connectors the order of connected interfaces is:
+USB
+UART
+I2C
+SPI
+DebugEdge
+
 **b049** Raspberry Pi compute module 4 with isolated flyback PoE. 
 
 **Status:** this board is essentially a composition of b076, b080 and a CM4. development of this is paused untill those are fully tested.
