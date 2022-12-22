@@ -366,12 +366,6 @@
   )
 
   (symbol_instances
-    (path "/00000000-0000-0000-0000-00006083c3a8/2793840b-a7a2-4b64-beb3-f201196ad7f7"
-      (reference "#PWR0101") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006083c3a8/dcccae93-2702-4ed1-91ff-060b2f7c6fd8"
-      (reference "#PWR0102") (unit 1) (value "GNDA") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006083e083"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
@@ -387,6 +381,9 @@
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060bdccdb"
       (reference "C4") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
+    (path "/00000000-0000-0000-0000-00006083c3a8/6c14ecc2-d250-415e-97cc-afd6fd72ffdd"
+      (reference "C5") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-00006083c3a8/fec6969a-2e15-4705-b225-ab89f6caa607"
       (reference "C6") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
@@ -396,11 +393,20 @@
     (path "/00000000-0000-0000-0000-00006083c3a8/2450016b-aa1c-43b2-8256-f2591e874787"
       (reference "C8") (unit 1) (value "C_Polarized_Small") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006083c3a8/8f48a532-dbc1-4deb-9f73-d55edbb9ede9"
+      (reference "C9") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006083c3a8/0b5fb9e3-6974-4d1c-beeb-a93c323690ee"
+      (reference "C10") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_1825_4564Metric")
+    )
     (path "/00000000-0000-0000-0000-00006083c3a8/977a8cce-e5bb-456d-b0a0-220f909c6153"
       (reference "D1") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/e1e29c75-834c-4aa3-8d24-9ecd1146bca9"
       (reference "D2") (unit 1) (value "SBR8U60P5-7") (footprint "Diode_SMD:D_PowerDI-5")
+    )
+    (path "/00000000-0000-0000-0000-00006083c3a8/17a79790-77e9-46c9-96ec-9972c902d06e"
+      (reference "D3") (unit 1) (value "BAV21") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-00006083a976"
       (reference "J1") (unit 1) (value "013_PoE_rectified") (footprint "on_edge:on_edge_2x05_device")
@@ -409,7 +415,7 @@
       (reference "J2") (unit 1) (value "003_power") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/3f193c86-a76f-4831-8da3-38c37ef79f23"
-      (reference "L1") (unit 1) (value "L_Small") (footprint "")
+      (reference "L1") (unit 1) (value "0R") (footprint "Inductor_SMD:L_1812_4532Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/4cede1f9-feab-4d64-94a8-4377200e4073"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -432,11 +438,14 @@
     (path "/00000000-0000-0000-0000-00006083c3a8/18dc37b1-09ce-4dbd-b2fa-96b727679170"
       (reference "R7") (unit 1) (value "20R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00006083c3a8/112858c4-2406-447d-851f-44d480665acf"
+      (reference "R8") (unit 1) (value "10K") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a0318a"
       (reference "U1") (unit 1) (value "MP8007") (footprint "Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/ca867fee-2925-4f3f-b30e-9d51d46ad5bb"
-      (reference "U2") (unit 1) (value "CX9628-AL") (footprint "")
+      (reference "U2") (unit 1) (value "POE70P-12L") (footprint "local:Transformer_Coilcraft_POE70P")
     )
   )
 )

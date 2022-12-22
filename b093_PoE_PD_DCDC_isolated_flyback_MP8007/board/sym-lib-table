@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name "put_on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/put_on_edge.kicad_sym")(options "")(descr ""))
-  (lib (name "local")(type "KiCad")(uri "${OSF_LIB_DIR}/things_on_edge/b093_PoE_PD_DCDC_isolated_flyback_MP8007/board/lib/local.kicad_sym")(options "")(descr ""))
+  (lib (name "local")(type "KiCad")(uri "${KIPRJMOD}/lib/local.kicad_sym")(options "")(descr ""))
 )
