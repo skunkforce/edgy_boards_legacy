@@ -391,7 +391,7 @@
       (reference "C7") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/2450016b-aa1c-43b2-8256-f2591e874787"
-      (reference "C8") (unit 1) (value "C_Polarized_Small") (footprint "")
+      (reference "C8") (unit 1) (value "220uF") (footprint "Capacitor_SMD:CP_Elec_10x10.5")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/8f48a532-dbc1-4deb-9f73-d55edbb9ede9"
       (reference "C9") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -445,7 +445,7 @@
       (reference "U1") (unit 1) (value "MP8007") (footprint "Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/ca867fee-2925-4f3f-b30e-9d51d46ad5bb"
-      (reference "U2") (unit 1) (value "POE70P-12L") (footprint "local:Transformer_Coilcraft_POE70P")
+      (reference "U2") (unit 1) (value "POE70P-50L") (footprint "local:Transformer_Coilcraft_POE70P")
     )
   )
 )
