@@ -1464,6 +1464,21 @@
     (path "/15e06ede-8bee-4cfc-b4df-2fe2828b0cc4/41ee0066-f76c-4634-b96b-7200eca4d2e1"
       (reference "R12") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/15e06ede-8bee-4cfc-b4df-2fe2828b0cc4/edf5afe4-da72-4a0b-ac43-7c83230c61d3"
+      (reference "R13") (unit 1) (value "d.n.p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/15e06ede-8bee-4cfc-b4df-2fe2828b0cc4/b4a13a49-d3c3-432f-b7ff-47b777cf107b"
+      (reference "R14") (unit 1) (value "d.n.p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/15e06ede-8bee-4cfc-b4df-2fe2828b0cc4/bfb8073c-b6a8-421c-a5bd-537e2fe1b858"
+      (reference "R15") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/15e06ede-8bee-4cfc-b4df-2fe2828b0cc4/ca05a8bd-5b55-461d-b427-6e282f07e69b"
+      (reference "R16") (unit 1) (value "d.n.p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/15e06ede-8bee-4cfc-b4df-2fe2828b0cc4/8d05375b-3302-4345-8d22-b3ab0ee228ec"
+      (reference "R17") (unit 1) (value "1M") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/15e06ede-8bee-4cfc-b4df-2fe2828b0cc4/ab62b65e-1a1d-4526-a3ce-acaab2199f56"
       (reference "U1") (unit 1) (value "MIC2019YM6") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
     )
