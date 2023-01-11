@@ -40,6 +40,9 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 
 **Status:** ordered.
 
+**b095** osf.009 100BASE-T M12 connector with PoE capable 749013011A magnetics.
+
+**Status:** initial.
 
 
 ### Magnetics
@@ -113,6 +116,10 @@ the philosophy behind this 'things_on_edge' project is to decompose electronic c
 **b052** PoE PD with buck DCDC using MP8007
 
 **Status:** ordered.
+
+**b093** PoE PD with flyback DCDC using MP8007
+
+**Status:** initial.
 
 ## USB
 **b006** 4 port USB hub featuring GL850G.
@@ -206,10 +213,6 @@ Output current 300ma
 **b085** 4.2V - 18V input 2A buck converter AP6220
 
 **Status:** ordered.
-
-**b093** PoE PD with flyback DCDC using MP8007
-
-**Status:** initial.
 
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
