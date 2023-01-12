@@ -1,5 +1,5 @@
 # Decompose all the things!
-the philosophy behind this 'things_on_edge' project is to decompose electronic circuits into their basic blocks with standardized connections between them. The goal is to allow reuse of as many parts of the design as possible such that only the novel pieces require effort. In this repository you will find a growing collection of small basic circuits, also known as 'edgy boards', which can be connected together using [put_on_edge](https://github.com/skunkforce/put_on_edge) connectors.
+the philosophy behind this 'edgy_boards' project is to decompose electronic circuits into their basic blocks with standardized connections between them. The goal is to allow reuse of as many parts of the design as possible such that only the novel pieces require effort. In this repository you will find a growing collection of small basic circuits which can be connected together using [put_on_edge](https://github.com/skunkforce/put_on_edge) connectors.
 
 # contributing
 ![workflow diagram](doc/workflow.png)
