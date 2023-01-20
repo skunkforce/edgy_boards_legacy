@@ -3,3 +3,5 @@
 https://www.wiznet.io/product-item/w5500/
 
 
+## tests
+Tested with b018. 
