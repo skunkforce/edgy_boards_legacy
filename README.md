@@ -45,7 +45,7 @@ There is a list of best practices reguarding the put_on_edge connectors used [he
 
 **b095** osf.009 100BASE-T M12 connector with PoE capable 749013011A magnetics.
 
-**Status:** initial.
+**Status:** ordered.
 
 
 ### Magnetics
@@ -122,7 +122,7 @@ There is a list of best practices reguarding the put_on_edge connectors used [he
 
 **b093** PoE PD with flyback DCDC using MP8007
 
-**Status:** initial.
+**Status:** ordered.
 
 ## USB
 **b006** 4 port USB hub featuring GL850G.
@@ -131,7 +131,7 @@ There is a list of best practices reguarding the put_on_edge connectors used [he
 
 **b094** 7 port USB hub featuring USB2517.
 
-**Status:** unfinished.
+**Status:** ordered.
 
 **b082** 4 port USB hub featuring USB2514B.
 
@@ -366,6 +366,9 @@ DebugEdge
 
 **Status:** ordered.
 
+**b096** MAC address chip 11AA02E48 or 11AA02E64
+
+**Status:** initial.
 
 ## Sensors
 ### angle
@@ -412,6 +415,9 @@ DebugEdge
 
 **Status:** tested.
 
+**b097** GPIO to RGB-LED
+
+**Status:** initial.
 
 
 
