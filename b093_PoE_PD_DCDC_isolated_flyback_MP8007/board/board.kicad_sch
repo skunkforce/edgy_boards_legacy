@@ -418,7 +418,7 @@
       (reference "L1") (unit 1) (value "0R") (footprint "Inductor_SMD:L_1812_4532Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/4cede1f9-feab-4d64-94a8-4377200e4073"
-      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/829fe45f-4f2a-494b-aa76-279476c8d8dc"
       (reference "R2") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -433,7 +433,7 @@
       (reference "R5") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/c2cd3993-73d9-41e5-b0f1-db67f319d603"
-      (reference "R6") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "105k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/18dc37b1-09ce-4dbd-b2fa-96b727679170"
       (reference "R7") (unit 1) (value "20R") (footprint "Resistor_SMD:R_0603_1608Metric")
