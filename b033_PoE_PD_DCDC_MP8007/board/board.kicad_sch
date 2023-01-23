@@ -379,7 +379,7 @@
       (reference "C3") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a13580"
-      (reference "C4") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C4") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a193fd"
       (reference "C5") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -421,10 +421,10 @@
       (reference "J2") (unit 1) (value "003_power") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a2d39d"
-      (reference "R1") (unit 1) (value "?") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a2d79d"
-      (reference "R2") (unit 1) (value "?") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R2") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a08fa6"
       (reference "R3") (unit 1) (value "41.2R") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -439,16 +439,16 @@
       (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a216c3"
-      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R7") (unit 1) (value "5k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a4b646"
-      (reference "R8") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "20R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a0318a"
       (reference "U1") (unit 1) (value "MP8007") (footprint "Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias")
     )
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060a03af8"
-      (reference "U2") (unit 1) (value "POE70P-50L") (footprint "local:Transformer_Coilcraft_POE70P")
+      (reference "U2") (unit 1) (value "POE30P-50L") (footprint "local:Transformer_Coilcraft_POE30P")
     )
   )
 )

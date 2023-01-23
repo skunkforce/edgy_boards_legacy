@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name on_edge)(type KiCad)(uri ${OSF_LIB_DIR}/put_on_edge/on_edge.pretty)(options "")(descr ""))
-  (lib (name local)(type KiCad)(uri ${OSF_LIB_DIR}/things_on_edge/b033_PoE_PD_DCDC_MP8007/board/lib/local.pretty)(options "")(descr ""))
+  (lib (name "on_edge")(type "KiCad")(uri "${OSF_LIB_DIR}/put_on_edge/on_edge.pretty")(options "")(descr ""))
+  (lib (name "local")(type "KiCad")(uri "${KiPRJMOD}/lib/local.pretty")(options "")(descr ""))
 )
