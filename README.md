@@ -104,9 +104,20 @@ There is a list of best practices reguarding the put_on_edge connectors used [he
 
 **b029** PoE++ PSE using LTC4266
 
-**b033** PoE PD with flyback DCDC
+**b033** PoE PD with 3 Watt flyback DCDC using MP8007 and POE30P50. 
+See also **b093** for 7 Watt and **b052** for 13 Watt.
 
-**Status:** on hold untill chips are availible again.
+**Status:** needs improvement.
+
+**b093** PoE PD with 7 Watt flyback DCDC using MP8007 and POE70P50. 
+See also **b033** for 3 Watt and **b052** for 13 Watt.
+
+**Status:** ordered.
+
+**b052** PoE PD with 13 Watt flyback DCDC using MP8007 and POE13P50. 
+See also **b033** for 3 Watt and **b093** for 7 Watt.
+
+**Status:** needs redesign.
 
 **b076** PoE PD with flyback DCDC using SI3404
 
@@ -116,13 +127,6 @@ There is a list of best practices reguarding the put_on_edge connectors used [he
 
 **Status:** incapable of large loads, being investigated.
 
-**b052** PoE PD with buck DCDC using MP8007
-
-**Status:** ordered.
-
-**b093** PoE PD with flyback DCDC using MP8007
-
-**Status:** ordered.
 
 ## USB
 **b006** 4 port USB hub featuring GL850G.
