@@ -427,9 +427,13 @@ DebugEdge
 
 **Status:** initial.
 
+**b074** resistive power supply tester
+
+**Status:** initial.
 
 
 
 
 
-unused b075 b074 b067
+
+unused b067
