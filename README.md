@@ -22,6 +22,10 @@ There is a list of best practices reguarding the put_on_edge connectors used [he
 
 **Status:** abandoned untill the chips are availible again.
 
+**b098** 5 port gigabit switch with 5 (S/R/G)MII interfaces using SJA1105.
+
+**Status:** initial.
+
 ### Connectors
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
 
