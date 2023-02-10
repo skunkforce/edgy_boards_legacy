@@ -2,7 +2,7 @@
 the philosophy behind this 'edgy_boards' project is to decompose electronic circuits into their basic blocks with standardized connections between them. The goal is to allow reuse of as many parts of the design as possible such that only the novel pieces require effort. In this repository you will find a growing collection of small basic circuits which can be connected together using [put_on_edge](https://github.com/skunkforce/put_on_edge) connectors.
 
 # Design guides
-There is a list of best practices reguarding the put_on_edge connectors used [here](https://github.com/skunkforce/put_on_edge/README.md). Beyond that this project has some of its own spectifications which should be followed. Boards should be made up of 16mm high x 24mm wide units subtracting 3mm space for the connectors. this means that a board which is 2 units wide and 4 units high would be 2 x 24mm = 48mm - 3mm = 45mm wide and 4 x 16mm = 64mm - 3mm = 61mm high. Most boards are i unit in size or 13mm x 21mm. With and height being multiples of the 8mm bump spacing of legos was intentional. 
+There is a list of best practices reguarding the put_on_edge connectors used [here](https://github.com/skunkforce/put_on_edge/README.md). Beyond that this project has some of its own spectifications which should be followed. Boards should be made up of 16mm high x 24mm wide units subtracting 3mm space for the connectors. this means that a board which is 2 units wide and 4 units high would be 2 x 24mm = 48mm - 3mm = 45mm wide and 4 x 16mm = 64mm - 3mm = 61mm high. Most boards are 1 unit in size or 13mm x 21mm. With and height being multiples of the 8mm bump spacing of legos was intentional. 
 
 # contributing
 ![workflow diagram](doc/workflow.png)
